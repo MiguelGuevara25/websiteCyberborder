@@ -26,14 +26,14 @@ const SlideItemThree = ({ slide = {} }, ref) => {
                 <TextSplit text={title} />
               </h1>
               <div className="text">{text}</div>
-              <div className="link-box">
+              {/* <div className="link-box">
                 <Link href="/about">
                   <a className="theme-btn btn-style-two">
                     <i className="btn-curve"></i>
                     <span className="btn-title">Discover More</span>
                   </a>
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

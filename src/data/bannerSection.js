@@ -23,8 +23,8 @@ export const bannerTwo = [
 
 export const bannerOne = {
   bg,
-  dayRange: "mon - fri",
-  timeRange: "9am - 7pm",
+  // dayRange: "mon - fri",
+  // timeRange: "9am - 7pm",
   socials: [
     {
       id: 1,
@@ -50,18 +50,18 @@ export const bannerOne = {
       title: "Best Digital\nMarketing\nAgency",
       text: "We are committed to providing our customers with exceptional service while offering our employees the best training.",
     },
-    {
-      id: 2,
-      bg: "image-1.jpg",
-      title: "Best Digital\nMarketing\nAgency",
-      text: "We are committed to providing our customers with exceptional service while offering our employees the best training.",
-    },
-    {
-      id: 3,
-      bg: "image-1.jpg",
-      title: "Best Digital\nMarketing\nAgency",
-      text: "We are committed to providing our customers with exceptional service while offering our employees the best training.",
-    },
+    // {
+    //   id: 2,
+    //   bg: "image-1.jpg",
+    //   title: "Best Digital\nMarketing\nAgency",
+    //   text: "We are committed to providing our customers with exceptional service while offering our employees the best training.",
+    // },
+    // {
+    //   id: 3,
+    //   bg: "image-1.jpg",
+    //   title: "Best Digital\nMarketing\nAgency",
+    //   text: "We are committed to providing our customers with exceptional service while offering our employees the best training.",
+    // },
   ],
 };
 

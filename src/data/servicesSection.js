@@ -146,30 +146,30 @@ export const serviceSeven = [
 ];
 
 export const serviceEight = {
-  text: "Our Services List",
-  title: "What We’re Offering",
+  text: "Comercio Internacional",
+  title: "Conflicto: Logística vs Seguridad",
   services: [
     {
       id: 1,
-      title: "Consumer Products",
+      title: "Crecimiento del comercio marítimo",
       href: "/digital-marketing",
       icon: "flaticon-vector-4",
     },
     {
       id: 2,
-      title: "Audit Marketing",
+      title: "Modernas Embarcaciones",
       href: "/digital-marketing",
       icon: "flaticon-analysis",
     },
     {
       id: 3,
-      title: "Advice Bankings",
+      title: "Terminales pequeñas o con poca tecnología",
       href: "/digital-marketing",
       icon: "flaticon-business",
     },
     {
       id: 4,
-      title: "Marketing Rules",
+      title: "Mayores controles",
       href: "/digital-marketing",
       icon: "flaticon-global",
     },

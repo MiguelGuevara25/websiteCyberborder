@@ -2873,7 +2873,7 @@ img.lazy-image.loaded {
   transform: translateY(100%);
 }
 
-.banner-carousel .tns-slide-active .round-image:after {
+/* .banner-carousel .tns-slide-active .round-image:after {
   opacity: 1;
   -webkit-transform: translate(0);
   transform: translate(0);
@@ -2881,7 +2881,7 @@ img.lazy-image.loaded {
   transition: all 1000ms ease;
   -webkit-transition-delay: 1000ms;
   transition-delay: 1000ms;
-}
+} */
 
 .banner-carousel .tns-controls {
   position: absolute;
@@ -22300,9 +22300,9 @@ img.lazy-image.loaded {
   padding-top: 100px;
   padding-bottom: 70px;
   background-color: #eef0f6;
-  background-image: url(../assets/images/update-01-10-2021/shapes/testi-8-bg-1-1.png);
+  /* background-image: url(../assets/images/update-01-10-2021/shapes/testi-8-bg-1-1.png);
   background-repeat: repeat;
-  background-position: center;
+  background-position: center; */
   counter-reset: serviceNumber;
 }
 
