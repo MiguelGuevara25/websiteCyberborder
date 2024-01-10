@@ -15,7 +15,7 @@ const GallerySectionThree = () => {
         </div>
         <Row>
           {items.map(({ id, title, tagline, image }) => (
-            <Col key={id} sm={12} md={6} lg={4}>
+            <Col key={id} sm={12} md={6} lg={6}>
               <div className="gallery-item-three">
                 <Image
                   src={
@@ -25,10 +25,10 @@ const GallerySectionThree = () => {
                   alt=""
                 />
                 <div className="gallery-item-three__content">
-                  <p>{tagline}</p>
                   <h3>
                     <Link href="/portfolio-single">{title}</Link>
                   </h3>
+                  <p>{tagline}</p>
                 </div>
               </div>
             </Col>

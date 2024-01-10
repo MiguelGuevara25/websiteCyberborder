@@ -10,7 +10,7 @@ import React from "react";
 
 const Home = () => {
   return (
-    <Layout pageTitle="CyberBorder">
+    <Layout pageTitle="Inicio">
       <HeaderOne headerStyle="header-style-two" logo={4} />
       <MobileMenu />
       <BannerThree />
