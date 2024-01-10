@@ -3,6 +3,7 @@ import GallerySectionThree from "@/components/GallerySection/GallerySectionThree
 import HeaderOne from "@/components/Header/HeaderOne";
 import MobileMenu from "@/components/Header/MobileMenu";
 import Layout from "@/components/Layout/Layout";
+import MainFooter from "@/components/MainFooter/MainFooter";
 import ServiceEight from "@/components/ServicesSection/ServiceEight";
 import WeDOSection from "@/components/WeDOSection/WeDOSection";
 import WeWorkSection from "@/components/WeWorkSection/WeWorkSection";
@@ -18,6 +19,7 @@ const Home = () => {
       <GallerySectionThree />
       <WeWorkSection />
       <WeDOSection />
+      <MainFooter />
     </Layout>
   );
 };

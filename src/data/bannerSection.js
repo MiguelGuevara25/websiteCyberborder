@@ -47,8 +47,8 @@ export const bannerOne = {
     {
       id: 1,
       bg: "image-1.jpg",
-      title: "Best Digital\nMarketing\nAgency",
-      text: "We are committed to providing our customers with exceptional service while offering our employees the best training.",
+      title: "Sistema Integral de CONTROL NO INTRUSIVO",
+      text: "Garantía de Integridad de las Mercancías",
     },
     // {
     //   id: 2,

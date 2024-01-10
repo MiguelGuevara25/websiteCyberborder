@@ -27,7 +27,7 @@ const SingleWeWork = ({ work = {}, current }) => {
                 <p>{text1}</p>
                 <p className="theme_color">{text2}</p>
                 <ul>
-                  {lists.map((text, i) => (
+                  {lists?.map((text, i) => (
                     <li key={i}>{text}</li>
                   ))}
                 </ul>

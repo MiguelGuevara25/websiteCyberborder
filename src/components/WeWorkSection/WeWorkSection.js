@@ -10,11 +10,14 @@ const WeWorkSection = () => {
   return (
     <section className="we-work-section">
       <div className="auto-container">
-        <div className="sec-title centered">
+        {/* <div className="sec-title centered">
           <h2>
             {title}
-            <span className="dot">.</span>
           </h2>
+        </div> */}
+        <div className="sec-title-two text-center">
+          <p>Software y Api/Rest</p>
+          <h2>{title}</h2>
         </div>
         <div className="work-tabs tabs-box">
           <ul className="tab-btns tab-buttons clearfix">

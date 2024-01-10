@@ -25,16 +25,15 @@ const WeDOSection = () => {
               <div className="sec-title">
                 <h2>
                   <TextSplit text={title} />
-                  <span className="dot">.</span>
                 </h2>
               </div>
               <div className="featured-block clearfix">
                 <div className="image">
                   <Image src={featuredImage.src} alt="" />
                 </div>
-                <div className="text">{text}</div>
+                <div className="text" style={{lineHeight: "1.5em"}}>{text}</div>
               </div>
-              <div className="progress-box">
+              {/* <div className="progress-box">
                 <div className="bar-title">{barTitle}</div>
                 <VisibilitySensor
                   offset={{ top: 10 }}
@@ -58,7 +57,7 @@ const WeDOSection = () => {
                     </div>
                   </div>
                 </VisibilitySensor>
-              </div>
+              </div> */}
             </div>
           </Col>
           <Col lg={6} md={12} sm={12} className="right-col">

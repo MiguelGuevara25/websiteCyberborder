@@ -9,9 +9,9 @@ const ServiceEight = () => {
   return (
     <section className="service-eight">
       <div className="auto-container">
-        <div className="sec-title-eight text-center">
-          <p className="sec-title-eight__text text-uppercase">{text}</p>
-          <h2 className="sec-title-eight__title">{title}</h2>
+        <div className="sec-title-two text-center">
+          <p>{text}</p>
+          <h2>{title}</h2>
         </div>
 
         <Row className="d-flex align-items-stretch">

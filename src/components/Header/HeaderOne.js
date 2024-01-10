@@ -131,10 +131,10 @@ const HeaderOne = ({
 
             {links && (
               <div className="other-links clearfix">
-                {/* <div className="cart-btn">
+                <div className="cart-btn">
                   <Link href="/cart">
                     <a className="theme-btn cart-toggler">
-                      <span className="flaticon-shopping-cart"></span>
+                      {/* <span className="flaticon-shopping-cart"></span> */}
                     </a>
                   </Link>
                 </div>
@@ -144,9 +144,9 @@ const HeaderOne = ({
                     type="button"
                     className="theme-btn search-toggler"
                   >
-                    <span className="flaticon-loupe"></span>
+                    {/* <span className="flaticon-loupe"></span> */}
                   </button>
-                </div> */}
+                </div>
 
                 <div className="link-box">
                   <div className="call-us">

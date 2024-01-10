@@ -1,26 +1,27 @@
 import featuredImage from "@/images/resource/featured-image-4.jpg";
 
 const weDOSection = {
-  title: "We do more then ever\nplatforms",
+  title: "¿QUE ES UN\nPRECINTO RFID?",
   featuredImage,
-  text: "There are many variatns of passages the majority have suffered alteration in some foor randomised words believable.",
+  text: "Es un dispositivo electrónico que utiliza tecnología de radiofrecuencia para rastrear y gestionar activos o envíos, mejorando la eficiencia y seguridad en la cadena de suministro.",
   barTitle: "Digital marketing",
   barPercent: 70,
   faqs: [
     {
       id: 1,
-      title: "We help to create visual strategies",
-      text: "There are many variations of passages the majority have suffered alteration in some fo injected humour, or randomised words believable.",
+      title: "PEQUEÑOS",
+      text: "Fabricados en acero inoxidable y plástico de ingeniería, sustituyen a los precintos de seguridad más usados.",
     },
+
     {
       id: 2,
-      title: "Motion Graphics & Animations",
-      text: "There are many variations of passages the majority have suffered alteration in some fo injected humour, or randomised words believable.",
+      title: "ANTISABOTAJE",
+      text: "Su diseño evita la manipulación mecánica, además incorpora un código electrónico único e irrepetible imposible de clonar.",
     },
     {
       id: 3,
-      title: "We help to achieve mutual goals",
-      text: "There are many variations of passages the majority have suffered alteration in some fo injected humour, or randomised words believable.",
+      title: "MONITOREABLES",
+      text: "Permite el monitoreo del estado de la puerta de contenedores en forma ágil y segura a un bajo costo de operación.",
     },
   ],
 };
