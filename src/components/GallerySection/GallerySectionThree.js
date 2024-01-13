@@ -22,10 +22,10 @@ const GallerySectionThree = () => {
                   alt=""
                 />
                 <div className="gallery-item-three__content">
-                  <h3>
+                  <h3 style={{ color: "#106496" }}>
                     <Link href="/portfolio-single">{title}</Link>
                   </h3>
-                  <p>{tagline}</p>
+                  <p style={{ color: "#106496" }}>{tagline}</p>
                 </div>
               </div>
             </Col>

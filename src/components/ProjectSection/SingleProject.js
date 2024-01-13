@@ -30,7 +30,6 @@ const SingleProject = ({ project = {} }) => {
   return (
     <SwiperSlide>
       <div className="project-seven__item">
-        {/* <Image src={require(`../../assets/images/rfidSeals.png`).src} alt="" /> */}
         <Image
           src={require(`../../assets/images/${image}`).default.src}
           alt=""

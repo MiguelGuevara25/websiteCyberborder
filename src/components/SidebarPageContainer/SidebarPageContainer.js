@@ -8,7 +8,7 @@ const SidebarPageContainer = ({ titleLayout }) => {
   let object = {};
 
   switch (titleLayout) {
-    case "Priime":
+    case "Priime Tech":
       object = {
         title: "Sistema de control de acceso de personas, vehículos y carga.",
         text1:

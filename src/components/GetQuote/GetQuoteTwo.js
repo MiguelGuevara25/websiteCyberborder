@@ -20,16 +20,14 @@ const GetQuoteTwo = ({ className = "" }) => {
           <Col lg={6} md={12} sm={12} className="left-col">
             <div className="inner">
               <div className="sec-title">
-                <h2>
-                  {title} <span className="dot">.</span>
-                </h2>
+                <h2 className="text-black">{title}</h2>
               </div>
               <div className="text">{text}</div>
               <div className="info">
                 <ul>
                   <li className="address">
                     <span className="icon flaticon-pin-1"></span>
-                    <strong>Visit Us</strong>
+                    <strong>Visítanos</strong>
                     {address}
                   </li>
                   <li>
@@ -86,7 +84,7 @@ const GetQuoteTwo = ({ className = "" }) => {
                       <Col lg={12} md={12} sm={12} className="form-group">
                         <button className="theme-btn btn-style-one">
                           <i className="btn-curve"></i>
-                          <span className="btn-title">Send message</span>
+                          <span className="btn-title text-white">Send message</span>
                         </button>
                       </Col>
                     </Row>

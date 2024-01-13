@@ -13,7 +13,7 @@ const SlideItemThree = ({ slide = {} }, ref) => {
           className="image"
           style={{
             backgroundImage: `url(${
-              require(`@/images/main-slider/${bg}`).default.src
+              require(`../../assets/images/principalImage.png`).default.src
             })`,
           }}
         ></div>
@@ -22,10 +22,10 @@ const SlideItemThree = ({ slide = {} }, ref) => {
         <div className="content-box">
           <div className="content">
             <div className="inner">
-              <h1>
+              <h1 className="text-white">
                 <TextSplit text={title} />
               </h1>
-              <div className="text">{text}</div>
+              <div className="text text-white">{text}</div>
               {/* <div className="link-box">
                 <Link href="/about">
                   <a className="theme-btn btn-style-two">

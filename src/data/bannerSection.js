@@ -46,7 +46,7 @@ export const bannerOne = {
   bannersTwo: [
     {
       id: 1,
-      bg: "image-1.jpg",
+      bg: "principalImage.png",
       title: "Sistema Integral de CONTROL NO INTRUSIVO",
       text: "Garantía de Integridad de las Mercancías",
     },

@@ -7,10 +7,10 @@ import MainFooter from "@/components/MainFooter/MainFooter";
 
 const PageContacto = () => {
   return (
-    <Layout pageTitle="Contact">
+    <Layout pageTitle="Contacto">
       <HeaderOne headerStyle="header-style-two" logo={4} />
       <MobileMenu />
-      <PageBanner title="Contact" />
+      <PageBanner title="Contáctanos" />
       <GetQuoteTwo />
       <MainFooter />
     </Layout>

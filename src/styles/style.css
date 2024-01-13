@@ -589,7 +589,7 @@ img {
 }
 
 .header-style-two.fixed-header .header-upper {
-  background: var(--thm-black);
+  background: #106496;
   -ms-box-shadow: 0 10px 30px 0px rgba(0, 0, 0, 0.08);
   -o-box-shadow: 0 10px 30px 0px rgba(0, 0, 0, 0.08);
   -webkit-box-shadow: 0 10px 30px 0px rgba(0, 0, 0, 0.08);
@@ -818,7 +818,7 @@ img {
 
 .header-style-two .main-menu .navigation > li > a,
 .header-style-two .main-menu .navigation > li:hover > a {
-  color: var(--thm-black);
+  color: white;
 }
 
 .header-style-two .main-menu .navigation > li.current > a,
@@ -828,7 +828,7 @@ img {
 }
 
 .header-style-two.fixed-header .main-menu .navigation > li.current > a {
-  color: var(--thm-base);
+  color: white;
 }
 
 .main-menu .navigation > li > a:before {
@@ -849,7 +849,7 @@ img {
 }
 
 .header-style-two.fixed-header .main-menu .navigation > li > a:before {
-  border-bottom-color: var(--thm-base);
+  border-bottom-color: white;
 }
 
 .main-menu .navigation > li:hover > a:before,
@@ -2800,10 +2800,10 @@ img.lazy-image.loaded {
   background-size: cover;
   background-position: left top;
   border-radius: 50%;
-  -webkit-filter: grayscale(100%);
+  /* -webkit-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
-  filter: grayscale(100%);
+  filter: grayscale(100%); */
   z-index: 2;
   opacity: 0;
   -webkit-transform: translateX(100%);
@@ -2831,6 +2831,7 @@ img.lazy-image.loaded {
   transition: all 1000ms ease;
   -webkit-transition-delay: 200ms;
   transition-delay: 200ms;
+  transform: scaleX(-1);
 }
 
 .banner-carousel .slide-item .round-image:before {
@@ -4886,7 +4887,7 @@ img.lazy-image.loaded {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: var(--thm-base);
+  background-color: white;
   opacity: 0.9;
 }
 
@@ -9968,7 +9969,7 @@ img.lazy-image.loaded {
   top: 0;
   width: 100%;
   height: 0px;
-  background: var(--thm-black);
+  background: #106496;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
@@ -10707,7 +10708,7 @@ img.lazy-image.loaded {
 .get-quote-two {
   position: relative;
   padding: 120px 0px 210px;
-  background-color: var(--thm-black);
+  background-color: white;
   background-image: url(../assets/images/background/contact-bg-1-1.png);
   background-size: cover;
   color: #999b9f;
@@ -10758,7 +10759,7 @@ img.lazy-image.loaded {
 .get-quote-two .form-box form .form-group select,
 .get-quote-two .form-box form .form-group textarea,
 .get-quote-two .form-group .ui-selectmenu-button.ui-button {
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
   border-color: #ffffff;
 }
 
@@ -10795,7 +10796,7 @@ img.lazy-image.loaded {
   background-color: var(--thm-base);
   border-radius: 50%;
   font-size: 16px;
-  color: var(--thm-black);
+  color: white;
 }
 
 .get-quote-two .info ul li:last-child {
@@ -11005,10 +11006,10 @@ img.lazy-image.loaded {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  -webkit-filter: grayscale(100%);
+  /* -webkit-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
-  filter: grayscale(100%);
+  filter: grayscale(100%); */
 }
 
 .page-banner .shape-1 {

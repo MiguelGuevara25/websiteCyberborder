@@ -2,14 +2,14 @@ import image from "@/images/resource/featured-image-16.jpg";
 import featuredImage from "@/images/resource/featured-image-17.jpg";
 
 export const sidebar = {
-  title: "Aliados Estratégicos",
+  title: "Productos Estratégicos",
   title2: "need Linoor help?",
   text: "Prefer speaking with a human to filling out a form? call corporate office and we will connect you with a team member who can help.",
   phone: "666 888 000",
   navItems: [
     {
       id: 1,
-      title: "Priime",
+      title: "Priime Tech",
       href: "/partners/priime",
     },
     {
