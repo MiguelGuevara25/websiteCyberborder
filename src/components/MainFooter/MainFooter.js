@@ -39,12 +39,12 @@ const MainFooter = ({ normalPadding = true }) => {
                       </a>
                     </Link>
                   </div>
-                  <div className="text">{text}</div>
+                  <div className="text text-white">{text}</div>
                   <ul className="social-links clearfix">
                     {socials.map(({ id, icon, href }) => (
                       <li key={id}>
                         <a href={href}>
-                          <span className={icon}></span>
+                          <span className={`${icon} text-white`}></span>
                         </a>
                       </li>
                     ))}
@@ -84,23 +84,30 @@ const MainFooter = ({ normalPadding = true }) => {
                 <div className="widget-content">
                   <h6>Contact</h6>
                   <ul className="contact-info">
-                    <li className="address">
-                      <span className="icon flaticon-pin-1"></span>{" "}
+                    <li className="address text-white">
+                      <span className="icon flaticon-pin-1 text-white"></span>{" "}
                       <TextSplit text={address} />
                     </li>
                     <li>
-                      <span className="icon flaticon-call"></span>
-                      <a href={`tel:${phone.split(" ").join("")}`}>{phone}</a>
+                      <span className="icon flaticon-call text-white"></span>
+                      <a
+                        href={`tel:${phone.split(" ").join("")}`}
+                        className="text-white"
+                      >
+                        {phone}
+                      </a>
                     </li>
                     <li>
-                      <span className="icon flaticon-email-2"></span>
-                      <a href={`mailto:${email}`}>{email}</a>
+                      <span className="icon flaticon-email-2 text-white"></span>
+                      <a href={`mailto:${email}`} className="text-white">
+                        {email}
+                      </a>
                     </li>
                   </ul>
                 </div>
               </div>
             </Col>
-            <Col xl={3} lg={6} md={6} sm={12} className="column">
+            <Col xl={3} lg={6} md={6} sm={12} className="column text-white">
               <div className="footer-widget newsletter-widget">
                 <div className="widget-content">
                   <h6>Newsletter</h6>
@@ -128,7 +135,7 @@ const MainFooter = ({ normalPadding = true }) => {
       </div>
       <div className="footer-bottom">
         <div className="auto-container">
-          <div className="inner clearfix">
+          <div className="inner clearfix text-white">
             <div className="copyright">
               &copy; copyright {year} by {author}
             </div>

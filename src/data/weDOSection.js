@@ -1,4 +1,4 @@
-import featuredImage from "@/images/resource/featured-image-4.jpg";
+import featuredImage from "@/images/rfidSeals.png";
 
 const weDOSection = {
   title: "¿QUE ES UN\nPRECINTO RFID?",

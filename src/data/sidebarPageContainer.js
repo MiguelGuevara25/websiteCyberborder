@@ -2,41 +2,31 @@ import image from "@/images/resource/featured-image-16.jpg";
 import featuredImage from "@/images/resource/featured-image-17.jpg";
 
 export const sidebar = {
-  title: "All Services",
+  title: "Aliados Estratégicos",
   title2: "need Linoor help?",
   text: "Prefer speaking with a human to filling out a form? call corporate office and we will connect you with a team member who can help.",
   phone: "666 888 000",
   navItems: [
     {
       id: 1,
-      title: "Website Development",
-      href: "/web-development",
+      title: "Priime",
+      href: "/partners/priime",
     },
     {
       id: 2,
-      title: "Graphic Designing",
-      href: "/graphic-designing",
+      title: "VMI Security",
+      href: "/partners/vmi-security",
     },
     {
       id: 3,
-      title: "Digital Marketing",
-      href: "/digital-marketing",
+      title: "Leghorn Group",
+      href: "/partners/leghorn-group",
     },
-    {
-      id: 4,
-      title: "SEO & Content Writing",
-      href: "/seo",
-    },
-    {
-      id: 5,
-      title: "App Development",
-      href: "/app-development",
-    },
-    {
-      id: 6,
-      title: "UI/UX Designing",
-      href: "/ui-designing",
-    },
+    // {
+    //   id: 4,
+    //   title: "SEO & Content Writing",
+    //   href: "/seo",
+    // },
   ],
 };
 

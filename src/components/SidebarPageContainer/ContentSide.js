@@ -1,18 +1,17 @@
-import React from "react";
 import { Col, Image, Row } from "react-bootstrap";
 
-const ContentSide = ({ service = {} }) => {
+const ContentSide = ({ object }) => {
   const {
-    image,
     title,
     text1,
+    image,
     featuredImage,
     featuredTitle,
     featuredText,
     features,
     text2,
     text3,
-  } = service;
+  } = object;
 
   return (
     <div className="service-details">

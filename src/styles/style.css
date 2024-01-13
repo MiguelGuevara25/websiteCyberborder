@@ -88,7 +88,7 @@
 :root {
   --thm-font: "Teko", sans-serif;
   --thm-b-font: "Rubik", sans-serif;
-  --thm-base: #ffaa17;
+  --thm-base: #106496;
   --thm-base-rgb: 255, 170, 23;
   --thm-black: #222429;
   --thm-text: #686a6f;
@@ -4385,10 +4385,10 @@ img.lazy-image.loaded {
 .we-do-section .featured-block .image img {
   display: block;
   width: 100%;
-  -webkit-filter: grayscale(100%);
+  /* -webkit-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
-  filter: grayscale(100%);
+  filter: grayscale(100%); */
   border-radius: 7px;
 }
 
@@ -5576,10 +5576,10 @@ img.lazy-image.loaded {
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
-  -webkit-filter: grayscale(100%);
+  /* -webkit-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
-  filter: grayscale(100%);
+  filter: grayscale(100%); */
   opacity: 0.3;
 }
 
@@ -6649,8 +6649,9 @@ img.lazy-image.loaded {
 .main-footer {
   position: relative;
   color: #999b9f;
-  background: var(--thm-black) url(../assets/images/background/footer-bg.png)
-    center top no-repeat;
+  /* background: var(--thm-black) url(../assets/images/background/footer-bg.png)
+    center top no-repeat; */
+  background-color: #106496;
 }
 
 .main-footer .widgets-section {
@@ -6717,7 +6718,7 @@ img.lazy-image.loaded {
 
 .main-footer .links-widget ul li a {
   position: relative;
-  color: #999b9f;
+  color: white;
   line-height: 30px;
   text-transform: capitalize;
   transition: all 0.3s ease;
@@ -20463,7 +20464,7 @@ img.lazy-image.loaded {
   .project-seven {
     padding-top: 120px;
     padding-bottom: 0;
-    margin-bottom: -120px;
+    /* margin-bottom: -120px; */
     position: relative;
     z-index: 10;
   }
@@ -22360,6 +22361,10 @@ img.lazy-image.loaded {
   transition: all 500ms ease;
 }
 
+.service-eight__card:hover a {
+  color: white;
+}
+
 .service-eight__card:hover {
   background-color: var(--thm-base);
 }
@@ -22408,7 +22413,7 @@ img.lazy-image.loaded {
 }
 
 .service-eight__card:hover .service-eight__icon i {
-  color: var(--thm-black);
+  color: white;
 }
 
 /* about eleven */

@@ -18,10 +18,7 @@ const GallerySectionThree = () => {
             <Col key={id} sm={12} md={6} lg={6}>
               <div className="gallery-item-three">
                 <Image
-                  src={
-                    require(`@/images/update-1-12-2020/projects/${image}`)
-                      .default.src
-                  }
+                  src={require(`../../assets/images/${image}`).default.src}
                   alt=""
                 />
                 <div className="gallery-item-three__content">

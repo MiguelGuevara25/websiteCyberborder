@@ -33,12 +33,9 @@ const ProjectSeven = () => {
   return (
     <section className="project-seven">
       <div className="auto-container">
-        <div className="sec-title-seven text-center">
-          <h2 className="sec-title-seven__title">
-            Our Recent <span>Projects</span>
-            <br />
-            List Below.
-          </h2>
+        <div className="sec-title-two text-center">
+          {/* <p>{text}</p> */}
+          <h2>Productos Estratégicos</h2>
         </div>
         <Swiper {...options} className="thm-swiper__slider">
           <div className="swiper-wrapper">
