@@ -20,6 +20,10 @@ const SingleProject = ({ project = {} }) => {
       urlPartner = `/partners/leghorn-group`;
       break;
 
+    case "Precintos Electrónicos":
+      urlPartner = `/partners/glinlock`;
+      break;
+
     default:
       break;
   }

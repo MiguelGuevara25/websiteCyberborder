@@ -2,7 +2,14 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import ContentSide from "./ContentSide";
 import SidebarSide from "./SidebarSide";
-import fotoPrueba from "../../assets/images/securitySolutionPhoto.jpg";
+import photoVMI1 from "../../assets/images/portos-vmi.webp";
+import fotoPrueba from "../../assets/images/spectrum-cargo-vmi-port-scanners-x-ray-1-1024x451.webp";
+import photoPriime1 from "../../assets/images/priime1.jpg";
+import photoPriime2 from "../../assets/images/priime2.png";
+import photoLeghorn from "../../assets/images/transporte-con-container-transporte-maritimo.jpg";
+import photoLeghorn1 from "../../assets/images/precintosRFID.png";
+import photoGlinlock from "../../assets/images/glinlock1.png";
+import photoGlinlock1 from "../../assets/images/glinlock2.jpg";
 
 const SidebarPageContainer = ({ titleLayout }) => {
   let object = {};
@@ -13,8 +20,8 @@ const SidebarPageContainer = ({ titleLayout }) => {
         title: "Sistema de control de acceso de personas, vehículos y carga.",
         text1:
           "Priime Tech es una empresa de tecnología con experiencia en el desarrollo de soluciones basadas en Sistemas de Inteligencia Artificial, Redes Neuronales, Imágenes por Computadora y Análisis de Imágenes. Sus soluciones buscan la automatización en los procesos de entrada y salida de personas, vehículos y carga en puertos, aeropuertos y pasos de frontera, permitiendo la identificación automática del conductor, matrícula de camiones, remolques y contenedores. El sistema también incluye captura de imágenes fijas y videos para control de fallas.",
-        image: fotoPrueba,
-        featuredImage: fotoPrueba,
+        image: photoPriime1,
+        featuredImage: photoPriime2,
         featuredTitle: "Beneficios de la solución",
         featuredText: "Estos son algunos beneficios de Priime",
         features: [
@@ -33,7 +40,7 @@ const SidebarPageContainer = ({ titleLayout }) => {
         title: "Soluciones inteligentes y ágiles en cualquier lugar.",
         text1:
           "Son dispositivos de Inspección no intrusiva que detecta amenazas automáticamente, permitiendo ver el interior de objetos, personas, vehículos y cargas. Los Scanner más modernos poseen potentes aceleradores lineales que posibilitan alta penetración en acero y una rápida transferencia de datos. Aquellos que implementen algún proceso de digitalización automática de flujo libre, garantizan un tráfico constante de camiones y contenedores por la zona de inspección.",
-        image: fotoPrueba,
+        image: photoVMI1,
         featuredImage: fotoPrueba,
         featuredTitle: "Beneficios de la solución",
         featuredText: "Estos son algunos beneficios de VMI Security",
@@ -53,8 +60,8 @@ const SidebarPageContainer = ({ titleLayout }) => {
         title: "Terminales de contenedores, puertos y aduanas.",
         text1:
           "La experiencia nos muestra que, en estos días, la mercadería más contaminada es aquella que ha sido escaneada, inspeccionada o reconocida como segura. Por ello es preciso asegurar que los contenedores ya escaneados no serán abiertos en las terminales ni serán sacados por error como si fuesen contenedores vacíos. Nuestra solución incorpora la tecnología RFID en los precintos de seguridad que nos brindan garantía de integridad de las mercaderías contenedorizadas. Leghorn es una empresa italiana con más de 40 años fabricando precintos de seguridad. Actualmente la tecnología de Leghorn se encuentra operativa en Europa, India, USA, Latinoamérica, etc. Posee numerosas patentes que lo posicionan como líder mundial de precintos de seguridad RFID.",
-        image: fotoPrueba,
-        featuredImage: fotoPrueba,
+        image: photoLeghorn,
+        featuredImage: photoLeghorn1,
         featuredTitle: "LeghornGroup se ocupa de realizar:",
         featuredText: "Estos son algunos beneficios de Leghorn Group",
         features: [
@@ -63,6 +70,27 @@ const SidebarPageContainer = ({ titleLayout }) => {
         ],
         text2:
           "LeghornGroup somos desde 1978 fabricantes y distribuidores de precintos para la seguridad de bienes materiales y personas, especializada en aplicaciones de logística y transporte. Gracias a la gran experiencia y capacidades disponibles en la empresa para el desarrollo de productos y sistemas, también, personalizados. Estamos encantados de proporcionar una respuesta integral y decisiva a cada problema relacionado con la seguridad.",
+        text3: "",
+      };
+      break;
+
+    case "Glinlock":
+      object = {
+        title:
+          "Seguimiento de contenedores y cargas para la seguridad en el tránsito",
+        text1:
+          "Los Precintos Electrónicos GPS son dispositivos de seguridad autónomos y reutilizables, que integran la más avanzada tecnología de detección. Están orientados al mercado de comercio exterior, actividad aduanera y transporte de cargas terrestres, fluvial y marítima. Fueron desarrollados para ser adosados en forma fácil y segura a las puertas de contenedores; también pueden ser utilizados en semi-remolques, camiones acoplados, vagones férreos, silos o depósitos, que cuenten con sistema de barras para cerrar o bloquear la apertura de las puertas.",
+        image: photoGlinlock1,
+        featuredImage: photoGlinlock,
+        featuredTitle: "Características técnicas:",
+        featuredText: "Algunas características técnicas de Glinlock",
+        features: [
+          "Comunicación satelital IRIDIUM",
+          "Posee encriptación AES 256",
+          "Cobertura telefónica Celular Global 4G / 5G",
+        ],
+        text2:
+          "Permite una respuesta inmediata de las autoridades y los operadores de comercio exterior en caso de accidente, delito o retraso, aportando seguridad a la cadena de suministro global y una reducción de los costes y tiempos operativos.",
         text3: "",
       };
       break;

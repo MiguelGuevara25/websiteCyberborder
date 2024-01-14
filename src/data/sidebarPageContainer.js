@@ -3,8 +3,8 @@ import featuredImage from "@/images/resource/featured-image-17.jpg";
 
 export const sidebar = {
   title: "Productos Estratégicos",
-  title2: "need Linoor help?",
-  text: "Prefer speaking with a human to filling out a form? call corporate office and we will connect you with a team member who can help.",
+  title2: "¿Necesitas ayuda?",
+  text: "Contáctanos ahora, para poder aclarar tus dudas y brindarte la mejor asesoría.",
   phone: "666 888 000",
   navItems: [
     {
@@ -22,11 +22,11 @@ export const sidebar = {
       title: "Leghorn Group",
       href: "/partners/leghorn-group",
     },
-    // {
-    //   id: 4,
-    //   title: "SEO & Content Writing",
-    //   href: "/seo",
-    // },
+    {
+      id: 4,
+      title: "Glinlock",
+      href: "/partners/glinlock",
+    },
   ],
 };
 

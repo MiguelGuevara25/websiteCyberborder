@@ -6,7 +6,7 @@ import logo7 from "@/images/update-01-10-2021/logo-7-light.png";
 import logo8 from "@/images/update-01-10-2021/logo-8-light.png";
 import logo5 from "@/images/update-09-06-2021/logo-5-light.png";
 
-export const footer = { year: new Date().getFullYear(), author: "Linoor" };
+export const footer = { year: new Date().getFullYear(), author: "Cyberborder" };
 
 export const mainFooterDemo = {
   ...footer,
@@ -35,9 +35,9 @@ export const mainFooter = {
   address3: "66 Mark Street, New Town DC 5752, Lo New York",
   address2:
     "214 Gold Street Round Road. 66 \n Code New York, United States \n of America",
-  phone: "666 888 000",
+  phone: "+1 631 355 9575",
   phone2: "+92 3333 222 000",
-  email: "needhelp@linoor.com",
+  email: "info@cyberboder.com",
   textBottom:
     "Sign up for our latest news & articles. We won’t give you spam mails.",
   subscribeText:
@@ -67,48 +67,23 @@ export const mainFooter = {
   links: [
     {
       id: 1,
-      href: "/about",
-      title: "About",
+      href: "/partners/priime",
+      title: "Priime",
     },
     {
       id: 2,
-      href: "/team",
-      title: "Meet Our Team",
+      href: "/partners/vmi-security",
+      title: "VMI Security",
     },
     {
       id: 3,
-      href: "/portfolio",
-      title: "Our Portfolio",
+      href: "/partners/leghorn-group",
+      title: "Leghorn Group",
     },
     {
       id: 4,
-      href: "/blog",
-      title: "Latest News",
-    },
-    {
-      id: 5,
-      href: "/contact",
-      title: "Contact",
-    },
-    {
-      id: 6,
-      href: "/faqs",
-      title: "Support",
-    },
-    {
-      id: 7,
-      href: "/faqs",
-      title: "Privacy Policy",
-    },
-    {
-      id: 8,
-      href: "/faqs",
-      title: "Terms of Use",
-    },
-    {
-      id: 9,
-      href: "/faqs",
-      title: "Help",
+      href: "/partners/glinlock",
+      title: "Glinlock",
     },
   ],
   ...footer,
