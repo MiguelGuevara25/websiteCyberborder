@@ -17,7 +17,7 @@ export const weWorkSection = {
   tabsContents: [
     {
       id: "tab-1",
-      image: "featured-image-14.jpg",
+      image: "integrationPlatform.png",
       text1:
         "Los datos proporcionados por todos los diferentes sistemas se integran en una única plataforma de software altamente seguridad generando una base de datos centralizada y estandarizada.",
       // text2:
@@ -31,7 +31,7 @@ export const weWorkSection = {
     },
     {
       id: "tab-2",
-      image: "featured-image-14.jpg",
+      image: "containerSecurity.png",
       text1:
         "Podemos proporcionar información valiosa de imágenes, peso, estado, ubicación, movimientos y traslados de contenedores en tránsito a cualquier TOS portuario y/o sistemas de autoridades de aduanas, permitiendo una rápida reacción en caso de actividades ilícitas.",
       // text2:
@@ -45,7 +45,7 @@ export const weWorkSection = {
     },
     {
       id: "tab-3",
-      image: "featured-image-14.jpg",
+      image: "systemPortuario.png",
       text1: "Nuestro sistema integral permite:",
       // text2:
       //   "If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.",

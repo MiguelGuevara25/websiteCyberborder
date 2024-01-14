@@ -155,8 +155,8 @@ const HeaderOne = ({
                       href={`tel:${phone.split(" ").join("")}`}
                     >
                       <span className="icon"></span>
-                      <span className="sub-text">Call Anytime</span>
-                      <span className="number">{phone}</span>
+                      <span className="sub-text">Llámanos</span>
+                      <span className="number">+1 631 355 9575</span>
                     </a>
                   </div>
                 </div>

@@ -2,22 +2,21 @@ import Link from "next/link";
 import React from "react";
 import { Image } from "react-bootstrap";
 import { SwiperSlide } from "swiper/react";
-import nose from "../../assets/images/precinto-de-cable-rfid-antitamper-05-430x301.jpg";
 
 const SingleProject = ({ project = {} }) => {
   const { image, title, category } = project;
   let urlPartner = "";
 
   switch (title) {
-    case "Priime":
+    case "Tótems con OCR":
       urlPartner = `/partners/priime`;
       break;
 
-    case "VMI Security":
+    case "Scanners de Rayos X":
       urlPartner = `/partners/vmi-security`;
       break;
 
-    case "Leghorn Group":
+    case "Precintos RFID":
       urlPartner = `/partners/leghorn-group`;
       break;
 

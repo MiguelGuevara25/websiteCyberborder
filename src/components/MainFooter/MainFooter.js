@@ -35,7 +35,7 @@ const MainFooter = ({ normalPadding = true }) => {
                   <div className="logo">
                     <Link href="/">
                       <a>
-                        <Image id="fLogo" src={logo.src} alt="" />
+                        <Image id="fLogo" src={logo.src} alt="" style={{height: 100}}  />
                       </a>
                     </Link>
                   </div>

@@ -1,5 +1,5 @@
 import demoBg from "@/images/background/footer-bg-2.jpg";
-import logo from "@/images/footer-logo.png";
+import logo from "@/images/logoCyberborderVertical.png";
 import logo3 from "@/images/logo-3.png";
 import logo6 from "@/images/update-01-10-2021/logo-6-light.png";
 import logo7 from "@/images/update-01-10-2021/logo-7-light.png";

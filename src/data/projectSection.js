@@ -106,25 +106,25 @@ export const projectSeven = [
     id: 1,
     image: "precintosRFID.png",
     title: "Precintos RFID",
-    category: "Agilidad",
+    category: "Seguridad en terminales y depósitos",
   },
   {
     id: 2,
     image: "precintoElectronico.png",
     title: "Precintos Electrónicos",
-    category: "Inspecciones",
+    category: "Seguridad de mercadería en tránsitos",
   },
   {
     id: 3,
     image: "scanerRayosX.png",
     title: "Scanners de Rayos X",
-    category: "Seguridad",
+    category: "Inspección no instrusiva",
   },
   {
     id: 4,
     image: "totemOCR.png",
     title: "Tótems con OCR",
-    category: "SEO, Marketin",
+    category: "Pórticos inteligentes",
   },
 ];
 

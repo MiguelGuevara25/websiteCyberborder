@@ -31,35 +31,36 @@ const getQuote = {
 export default getQuote;
 
 export const getQuoteTwo = {
-  title: "We are always here to help you",
-  text: "There are many variatns of passages the majority have suffered alteration in some foor randomised words believable.",
+  title: "Estamos siempre para ayudarte",
+  text: "Si tienes alguna consulta, no dudes en contactarnos, nuestro equipo de expertos estará encantado de ayudarte.",
   address: "66 Broklyn Street, New York. USA",
-  email: "needhelp@linoor.com",
-  phone: "666 888 000",
+  email: "info@cyberboder.com",
+  phone: "+1 631 355 9575",
+  phone2: "+34 656 94 23 95",
   inputs: [
     {
       type: "text",
       name: "username",
-      placeholder: "Your Name",
+      placeholder: "Nombre",
     },
     {
       type: "email",
       name: "email",
-      placeholder: "Email Address",
+      placeholder: "Correo",
     },
     {
       type: "text",
       name: "phone",
-      placeholder: "Phone Number",
+      placeholder: "Teléfono",
     },
     {
       type: "text",
       name: "subject",
-      placeholder: "Subject",
+      placeholder: "Asunto",
     },
     {
       name: "message",
-      placeholder: "Write Message",
+      placeholder: "Escribe tu mensaje...",
     },
   ],
 };
@@ -70,26 +71,26 @@ export const getQuoteThree = {
     {
       type: "text",
       name: "username",
-      placeholder: "Your Name",
+      placeholder: "Nombre",
     },
     {
       type: "email",
       name: "email",
-      placeholder: "Email Address",
+      placeholder: "Correo",
     },
     {
       type: "text",
       name: "phone",
-      placeholder: "Phone Number",
+      placeholder: "Teléfono o celular",
     },
     {
       type: "text",
       name: "subject",
-      placeholder: "Subject",
+      placeholder: "Asunto",
     },
     {
       name: "message",
-      placeholder: "Write Message",
+      placeholder: "Escribe tu mensaje...",
     },
   ],
 };

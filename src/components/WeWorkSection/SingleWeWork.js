@@ -14,7 +14,7 @@ const SingleWeWork = ({ work = {}, current }) => {
           <div className="inner">
             <div className="image">
               <Image
-                src={require(`@/images/resource/${image}`).default.src}
+                src={require(`../../assets/images/${image}`).default.src}
                 alt=""
               />
             </div>

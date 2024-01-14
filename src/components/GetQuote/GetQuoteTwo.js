@@ -3,7 +3,7 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { useForm } from "react-hook-form";
 
-const { title, text, address, email, phone, inputs } = getQuoteTwo;
+const { title, text, address, email, phone, phone2, inputs } = getQuoteTwo;
 
 const GetQuoteTwo = ({ className = "" }) => {
   const {
@@ -25,20 +25,29 @@ const GetQuoteTwo = ({ className = "" }) => {
               <div className="text">{text}</div>
               <div className="info">
                 <ul>
-                  <li className="address">
+                  {/* <li className="address">
                     <span className="icon flaticon-pin-1"></span>
                     <strong>Visítanos</strong>
                     {address}
-                  </li>
+                  </li> */}
                   <li>
                     <span className="icon flaticon-email-2"></span>
-                    <strong>Email address</strong>
+                    <strong style={{ color: "#686a6f" }}>Correo</strong>
                     <a href={`mailto:${email}`}>{email}</a>
                   </li>
                   <li>
                     <span className="icon flaticon-call"></span>
-                    <strong>Call now</strong>
+                    <strong style={{ color: "#686a6f" }}>
+                      Número de contacto
+                    </strong>
                     <a href={`tel:${phone.split(" ").join("")}`}>{phone}</a>
+                  </li>
+                  <li>
+                    <span className="icon flaticon-call"></span>
+                    <strong style={{ color: "#686a6f" }}>
+                      Número de contacto
+                    </strong>
+                    <a href={`tel:${phone2.split(" ").join("")}`}>{phone2}</a>
                   </li>
                 </ul>
               </div>
@@ -84,7 +93,9 @@ const GetQuoteTwo = ({ className = "" }) => {
                       <Col lg={12} md={12} sm={12} className="form-group">
                         <button className="theme-btn btn-style-one">
                           <i className="btn-curve"></i>
-                          <span className="btn-title text-white">Send message</span>
+                          <span className="btn-title text-white">
+                            Send message
+                          </span>
                         </button>
                       </Col>
                     </Row>
