@@ -2,8 +2,8 @@ import React from "react";
 import { Col } from "react-bootstrap";
 import TextSplit from "../Reuseable/TextSplit";
 
-const SingleServiceOne = ({ service = {} }) => {
-  const { icon, href, title } = service;
+const SingleServiceOne = () => {
+  // const { icon, href, title } = service;
 
   return (
     <Col
@@ -16,11 +16,11 @@ const SingleServiceOne = ({ service = {} }) => {
       <div className="inner-box">
         <div className="bottom-curve"></div>
         <div className="icon-box">
-          <span className={icon}></span>
+          <span></span>
         </div>
         <h6>
-          <a href={href}>
-            <TextSplit text={title} />
+          <a href="#">
+            <TextSplit text={"sdmsakdsaomkdaskmda"} />
           </a>
         </h6>
       </div>

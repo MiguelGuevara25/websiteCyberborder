@@ -38,50 +38,50 @@ export const servicesSectionThree = {
 
 export default servicesSection;
 
-export const serviceSectionThree = [
-  {
-    id: 1,
-    icon: "flaticon-responsive",
-    href: "/web-development",
-    title: "Website\nDevelopment",
-  },
-  {
-    id: 2,
-    icon: "flaticon-computer",
-    href: "/graphic-designing",
-    title: "graphic\ndesigning",
-  },
-  {
-    id: 3,
-    icon: "flaticon-digital-marketing",
-    href: "/digital-marketing",
-    title: "digital\nmarketing",
-  },
-  {
-    id: 4,
-    icon: "flaticon-development",
-    href: "/seo",
-    title: "seo & content\nwriting",
-  },
-  {
-    id: 5,
-    icon: "flaticon-app-development",
-    href: "/app-development",
-    title: "App\nDevelopment",
-  },
-  {
-    id: 6,
-    icon: "flaticon-ui",
-    href: "/ui-designing",
-    title: "Ui/UX\ndesigning",
-  },
-];
+// export const serviceSectionThree = [
+//   {
+//     id: 1,
+//     icon: "flaticon-responsive",
+//     href: "/web-development",
+//     title: "Website\nDevelopment",
+//   },
+//   {
+//     id: 2,
+//     icon: "flaticon-computer",
+//     href: "/graphic-designing",
+//     title: "graphic\ndesigning",
+//   },
+//   {
+//     id: 3,
+//     icon: "flaticon-digital-marketing",
+//     href: "/digital-marketing",
+//     title: "digital\nmarketing",
+//   },
+//   {
+//     id: 4,
+//     icon: "flaticon-development",
+//     href: "/seo",
+//     title: "seo & content\nwriting",
+//   },
+//   {
+//     id: 5,
+//     icon: "flaticon-app-development",
+//     href: "/app-development",
+//     title: "App\nDevelopment",
+//   },
+//   {
+//     id: 6,
+//     icon: "flaticon-ui",
+//     href: "/ui-designing",
+//     title: "Ui/UX\ndesigning",
+//   },
+// ];
 
-export const servicesSectionOne = {
-  title: "We Shape the Perfect\nSolutions",
-  text: "We are committed to providing our customers with exceptional service while offering our employees the best training.",
-  services: serviceSectionThree,
-};
+// export const servicesSectionOne = {
+//   title: "We Shape the Perfect\nSolutions",
+//   text: "We are committed to providing our customers with exceptional service while offering our employees the best training.",
+//   services: serviceSectionThree,
+// };
 
 export const serviceSix = {
   tagline: "Checkout Our Services",

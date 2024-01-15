@@ -15,10 +15,10 @@ const ServicesSectionOne = () => {
             <div className="inner">
               <div className="sec-title">
                 <h2>
-                  <TextSplit text={title} />
+                  <TextSplit text={"dasdasddas"} />
                   <span className="dot">.</span>
                 </h2>
-                <div className="lower-text">{text}</div>
+                <div className="lower-text">sadasd</div>
               </div>
             </div>
           </Col>
