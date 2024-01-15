@@ -183,7 +183,7 @@ export const serviceNine = [
     icon: "flaticon-responsive",
     title: "modern designing",
     text: "Lorem ipsum is simply free sed qui magni dolores eos qui voptam.",
-    href: "/ui-designing",
+    // href: "/ui-designing",
   },
   {
     id: 2,
@@ -191,7 +191,7 @@ export const serviceNine = [
     icon: "flaticon-computer",
     title: "graphic designing",
     text: "Lorem ipsum is simply free sed qui magni dolores eos qui voptam.",
-    href: "/graphic-designing",
+    // href: "/graphic-designing",
   },
   {
     id: 3,
@@ -199,7 +199,7 @@ export const serviceNine = [
     icon: "flaticon-global",
     title: "digital marketing",
     text: "Lorem ipsum is simply free sed qui magni dolores eos qui voptam.",
-    href: "/digital-marketing",
+    // href: "/digital-marketing",
   },
   {
     id: 4,
@@ -207,7 +207,7 @@ export const serviceNine = [
     icon: "flaticon-development",
     title: "Content Writting",
     text: "Lorem ipsum is simply free sed qui magni dolores eos qui voptam.",
-    href: "/seo",
+    // href: "/seo",
   },
   {
     id: 5,
@@ -215,7 +215,7 @@ export const serviceNine = [
     icon: "flaticon-app-development",
     title: "App Development",
     text: "Lorem ipsum is simply free sed qui magni dolores eos qui voptam.",
-    href: "/app-development",
+    // href: "/app-development",
   },
   {
     id: 6,
@@ -223,6 +223,6 @@ export const serviceNine = [
     icon: "flaticon-planning",
     title: "ui / ux designing",
     text: "Lorem ipsum is simply free sed qui magni dolores eos qui voptam.",
-    href: "/ui-designing",
+    // href: "/ui-designing",
   },
 ];
