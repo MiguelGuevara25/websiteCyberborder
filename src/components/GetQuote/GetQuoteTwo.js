@@ -94,7 +94,7 @@ const GetQuoteTwo = ({ className = "" }) => {
                         <button className="theme-btn btn-style-one">
                           <i className="btn-curve"></i>
                           <span className="btn-title text-white">
-                            Send message
+                            Enviar Mensaje
                           </span>
                         </button>
                       </Col>

@@ -32,6 +32,7 @@ const SidebarPageContainer = ({ titleLayout }) => {
         text2:
           "Una empresa de Automatización y Software alineada con la industria 4.0, su solución está enfocada a la eficiencia operativa. Somos una empresa tecnológica con experiencia en el desarrollo de soluciones integradas basadas en Inteligencia Artificial, Redes Neuronales, Visión por Computador y Sistemas de Análisis de Imágenes. Soluciones personalizadas para segmentos que buscan automatización en los procesos de entrada y salida de personas, vehículos y cargas en puertos y aeropuertos, cumpliendo con toda la legislación vigente de los órganos de control. ",
         text3: "",
+        enlace: "https://priimetech.com.br/",
       };
       break;
 
@@ -52,6 +53,7 @@ const SidebarPageContainer = ({ titleLayout }) => {
         text2:
           "VMI Security es una empresa líder mundial en el desarrollo y fabricación de tecnologías de inspección usando Rayos X. Con soluciones de inspección no intrusiva que aumentan y mejoran los sistemas de control y seguridad, la empresa VMI se destaca por desarrollar equipamientos de alta calidad y su servicio de soporte técnico permanente.",
         text3: "",
+        enlace: "https://vmisecurity.com/es/",
       };
       break;
 
@@ -71,6 +73,7 @@ const SidebarPageContainer = ({ titleLayout }) => {
         text2:
           "LeghornGroup somos desde 1978 fabricantes y distribuidores de precintos para la seguridad de bienes materiales y personas, especializada en aplicaciones de logística y transporte. Gracias a la gran experiencia y capacidades disponibles en la empresa para el desarrollo de productos y sistemas, también, personalizados. Estamos encantados de proporcionar una respuesta integral y decisiva a cada problema relacionado con la seguridad.",
         text3: "",
+        enlace: "https://www.leghorngroup.es/",
       };
       break;
 
@@ -110,6 +113,17 @@ const SidebarPageContainer = ({ titleLayout }) => {
             <SidebarSide />
           </Col>
         </Row>
+
+        <button className="theme-btn btn-style-one">
+          <i className="btn-curve"></i>
+          <a
+            href={object.enlace}
+            target="_blank"
+            className="btn-title text-white"
+          >
+            Más información
+          </a>
+        </button>
       </div>
     </div>
   );
