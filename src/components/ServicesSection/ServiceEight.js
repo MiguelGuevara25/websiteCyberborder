@@ -23,7 +23,10 @@ const ServiceEight = () => {
                     <Link href={href}>{title}</Link>
                   </h3>
                   <div className="service-eight__icon d-flex h-100 align-items-end">
-                    <i className={`${icon}`}></i>
+                    <img
+                      src={require(`../../assets/images/${icon}`).default.src}
+                      width={70}
+                    />
                   </div>
                 </div>
               </div>

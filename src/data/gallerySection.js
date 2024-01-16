@@ -333,7 +333,7 @@ export const gallerySectionThree = {
       image: "integrationSystem.png",
       title: "Integración de un sistema único",
       tagline:
-        "Nuestra solución integra diferentes tecnologías líderes en el mercado que son completos sistemas de seguridad en sí mismo y altamente eficientes. Esta tecnologías se integran para funcionar como un solo sistema de seguridad que aporta información valiosa y oportuna de control.",
+        "Nuestra solución integra diferentes tecnologías líderes en el mercado que son completos sistemas de seguridad en sí mismo y altamente eficientes. Estas tecnologías se integran para funcionar como un solo sistema de seguridad que aporta información valiosa y oportuna de control.",
     },
     {
       id: 4,
