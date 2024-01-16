@@ -71,7 +71,7 @@ const SidebarPageContainer = ({ titleLayout }) => {
           "Sistemas RFID para rastreo de bienes, animales y personas, optimizando flujos operativos industriales y de servicios.",
         ],
         text2:
-          "LeghornGroup somos desde 1978 fabricantes y distribuidores de precintos para la seguridad de bienes materiales y personas, especializada en aplicaciones de logística y transporte. Gracias a la gran experiencia y capacidades disponibles en la empresa para el desarrollo de productos y sistemas, también, personalizados. Estamos encantados de proporcionar una respuesta integral y decisiva a cada problema relacionado con la seguridad.",
+          "LeghornGroup somos desde 1978 fabricantes y distribuidores de precintos para la seguridad de bienes materiales y personas, especializada en aplicaciones de logística y transporte. Gracias a la gran experiencia y capacidades disponibles en la empresa para el desarrollo de productos y sistemas, también personalizados. Estamos encantados de proporcionar una respuesta integral y decisiva a cada problema relacionado con la seguridad.",
         text3: "",
         enlace: "https://www.leghorngroup.es/",
       };

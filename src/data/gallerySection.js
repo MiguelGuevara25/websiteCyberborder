@@ -318,7 +318,7 @@ export const gallerySectionThree = {
       image: "securitySolution.png",
       title: "Seguridad",
       tagline:
-        "Es necesario la aplicación de la más avanzadas tecnologías de Seguridad Electrónica para el CONTROL y TRAZABILIDAD de los envíos, buscando garantizar la integridad de la carga.",
+        "Es necesaria la aplicación de las más avanzadas tecnologías de Seguridad Electrónica para el CONTROL y TRAZABILIDAD de los envíos, buscando garantizar la integridad de la carga.",
     },
     {
       id: 2,
@@ -333,14 +333,14 @@ export const gallerySectionThree = {
       image: "integrationSystem.png",
       title: "Integración de un sistema único",
       tagline:
-        "Nuestra solución integra diferentes tecnologías líderes en elmercado que son completos sistemas de seguridad en sí mismo y altamente eficientes. Esta tecnologías se integran para funcionar como un solo sistema de seguridad que aporta información valiosa y oportuna de control.",
+        "Nuestra solución integra diferentes tecnologías líderes en el mercado que son completos sistemas de seguridad en sí mismo y altamente eficientes. Esta tecnologías se integran para funcionar como un solo sistema de seguridad que aporta información valiosa y oportuna de control.",
     },
     {
       id: 4,
       image: "operateAgility.png",
       title: "Agilidad operativa",
       tagline:
-        "Esta solución permite una respuesta inmediata de las autoridades ylos operadores de comercio exterior en casos de contaminación, delitos, accidentes o retrasos, aportando seguridad a la cadena de suministro global y una reducción de costos y tiempos operativos.",
+        "Esta solución permite una respuesta inmediata de las autoridades y los operadores de comercio exterior en casos de contaminación, delitos, accidentes o retrasos, aportando seguridad a la cadena de suministro global y una reducción de costos y tiempos operativos.",
     },
     // {
     //   id: 5,

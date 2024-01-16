@@ -19,7 +19,7 @@ export const weWorkSection = {
       id: "tab-1",
       image: "integrationPlatform.png",
       text1:
-        "Los datos proporcionados por todos los diferentes sistemas se integran en una única plataforma de software altamente seguridad generando una base de datos centralizada y estandarizada.",
+        "Los datos proporcionados por todos los diferentes sistemas se integran en una única plataforma de software altamente segura, generando una base de datos centralizada y estandarizada.",
       // text2:
       //   "If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.",
       // lists: [
