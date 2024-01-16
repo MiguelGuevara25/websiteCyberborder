@@ -656,6 +656,7 @@ img {
   width: 44px;
   height: 42px;
   background: url(../assets/images/icons/chat-icon.png) left center no-repeat;
+  filter: grayscale(1);
 }
 
 .main-header .other-links .link-box .sub-text {
