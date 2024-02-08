@@ -1,7 +1,6 @@
 import weDOSection from "@/data/weDOSection";
 import React, { useState } from "react";
 import { Col, Image, Row } from "react-bootstrap";
-import VisibilitySensor from "react-visibility-sensor";
 import TextSplit from "../Reuseable/TextSplit";
 
 const { title, featuredImage, text, barTitle, barPercent, faqs } = weDOSection;
@@ -31,33 +30,10 @@ const WeDOSection = () => {
                 <div className="image">
                   <Image src={featuredImage.src} alt="" />
                 </div>
-                <div className="text" style={{lineHeight: "1.5em"}}>{text}</div>
+                <div className="text" style={{ lineHeight: "1.5em" }}>
+                  {text}
+                </div>
               </div>
-              {/* <div className="progress-box">
-                <div className="bar-title">{barTitle}</div>
-                <VisibilitySensor
-                  offset={{ top: 10 }}
-                  delayedCall={true}
-                  onChange={onVisibilityChange}
-                >
-                  <div className="bar">
-                    <div
-                      className="bar-inner count-bar"
-                      style={{ width: countStart ? `${barPercent}%` : 0 }}
-                    >
-                      <div
-                        style={{ opacity: countStart ? 1 : 0 }}
-                        className="count-box"
-                      >
-                        <span className="count-text">
-                          {countStart ? barPercent : 0}
-                        </span>
-                        %
-                      </div>
-                    </div>
-                  </div>
-                </VisibilitySensor>
-              </div> */}
             </div>
           </Col>
           <Col lg={6} md={12} sm={12} className="right-col">

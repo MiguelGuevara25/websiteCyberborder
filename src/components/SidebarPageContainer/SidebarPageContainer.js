@@ -10,6 +10,7 @@ import photoLeghorn from "../../assets/images/transporte-con-container-transport
 import photoLeghorn1 from "../../assets/images/precintosRFID.png";
 import photoGlinlock from "../../assets/images/glinlock1.png";
 import photoGlinlock1 from "../../assets/images/glinlock2.jpg";
+import WeDOSection from "../WeDOSection/WeDOSection";
 
 const SidebarPageContainer = ({ titleLayout }) => {
   let object = {};
@@ -113,6 +114,8 @@ const SidebarPageContainer = ({ titleLayout }) => {
             <SidebarSide />
           </Col>
         </Row>
+
+        <WeDOSection />
 
         <button className="theme-btn btn-style-one">
           <i className="btn-curve"></i>

@@ -21,6 +21,7 @@ const ContentSide = ({ object }) => {
       <div className="text-content">
         <h3>{title}</h3>
         <p>{text1}</p>
+
         <div className="featured">
           <Row className="clearfix">
             <Col md={6} sm={12} className="image-col">
@@ -41,6 +42,7 @@ const ContentSide = ({ object }) => {
             </Col>
           </Row>
         </div>
+
         <p>{text2}</p>
         <p className="last">{text3}</p>
       </div>
