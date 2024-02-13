@@ -152,10 +152,13 @@ const HeaderOne = ({
                   <div className="call-us">
                     <a
                       className="link"
-                      href={`tel:${phone.split(" ").join("")}`}
+                      // href={`tel:${phone.split(" ").join("")}`}
+                      href={`https://wa.me/16313559575`}
+                      target="_blank"
+                      rel="noreferrer"
                     >
                       <span className="icon"></span>
-                      <span className="sub-text">Llámanos</span>
+                      <span className="sub-text">Contáctanos</span>
                       <span className="number">+1 631 355 9575</span>
                     </a>
                   </div>

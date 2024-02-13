@@ -100,6 +100,10 @@ const navItems = [
     id: 8,
     name: "Contacto",
     href: "/contacto",
+    subNavItems: [
+      { id: 1, name: "América", href: "/contacto" },
+      { id: 2, name: "Europa", href: "/contacto-2" },
+    ],
   },
 ];
 
