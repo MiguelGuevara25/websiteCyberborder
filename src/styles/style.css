@@ -4360,7 +4360,7 @@ img.lazy-image.loaded {
 ***/
 .we-do-section {
   position: relative;
-  /* padding: 100px 0px 90px; */
+  padding: 50px 0px 50px;
   /* background: #ffffff url(../assets/images/background/pattern-2.png) left top
     repeat; */
 }

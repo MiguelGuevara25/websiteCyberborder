@@ -107,15 +107,13 @@ const SidebarPageContainer = ({ titleLayout }) => {
     <div className="sidebar-page-container">
       <div className="auto-container">
         <Row className="clearfix">
-          <Col lg={8} md={12} sm={12} className="content-side">
-            <ContentSide object={object} />
+          <Col lg={9} md={12} sm={12} className="content-side">
+            <ContentSide object={object} titleLayout={titleLayout} />
           </Col>
-          <Col lg={4} md={12} sm={12} className="sidebar-side">
+          <Col lg={3} md={12} sm={12} className="sidebar-side">
             <SidebarSide />
           </Col>
         </Row>
-
-        <WeDOSection />
 
         <button className="theme-btn btn-style-one">
           <i className="btn-curve"></i>

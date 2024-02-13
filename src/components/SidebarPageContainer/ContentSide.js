@@ -1,6 +1,7 @@
 import { Col, Image, Row } from "react-bootstrap";
+import WeDOSection from "../WeDOSection/WeDOSection";
 
-const ContentSide = ({ object }) => {
+const ContentSide = ({ object, titleLayout }) => {
   const {
     title,
     text1,
@@ -13,11 +14,16 @@ const ContentSide = ({ object }) => {
     text3,
   } = object;
 
+  console.log(titleLayout);
+
   return (
     <div className="service-details">
       <div className="main-image image">
         <Image src={image.src} alt="" />
       </div>
+
+      {titleLayout === "Leghorn Group" && <WeDOSection />}
+
       <div className="text-content">
         <h3>{title}</h3>
         <p>{text1}</p>

@@ -19,21 +19,27 @@ const WeDOSection = () => {
     <section className="we-do-section">
       <div className="auto-container">
         <Row className="clearfix">
-          <Col lg={6} md={12} sm={12} className="left-col">
+          <Col
+            lg={6}
+            md={12}
+            sm={12}
+            className="left-col"
+            style={{ width: "max-content" }}
+          >
             <div className="inner">
               <div className="sec-title">
                 <h2>
                   <TextSplit text={title} />
                 </h2>
               </div>
-              <div className="featured-block clearfix">
+              {/* <div className="featured-block clearfix">
                 <div className="image">
                   <Image src={featuredImage.src} alt="" />
                 </div>
                 <div className="text" style={{ lineHeight: "1.5em" }}>
                   {text}
                 </div>
-              </div>
+              </div> */}
             </div>
           </Col>
           <Col lg={6} md={12} sm={12} className="right-col">
