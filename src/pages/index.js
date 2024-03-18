@@ -22,7 +22,6 @@ const Home = () => {
       <ProjectSeven />
       <WeWorkSection />
       <ParallaxSection />
-      {/* <WeDOSection /> */}
       <MainFooter />
     </Layout>
   );

@@ -15,12 +15,12 @@ const ServiceEight = () => {
         </div>
 
         <Row className="d-flex align-items-stretch">
-          {services.map(({ id, icon, title, href }) => (
+          {services.map(({ id, icon, title }) => (
             <Col key={id} md={6} lg={3} className="animated fadeInLeft">
               <div className="service-eight__card d-flex flex-column h-100">
                 <div className="service-eight__card__inner d-flex flex-column h-100">
                   <h3 className="service-eight__title">
-                    <Link href={href}>{title}</Link>
+                    {title}
                   </h3>
                   <div className="service-eight__icon d-flex h-100 align-items-end">
                     <img
