@@ -28,8 +28,6 @@ const SingleProject = ({ project = {} }) => {
       break;
   }
 
-  console.log(urlPartner);
-
   return (
     <SwiperSlide>
       <div className="project-seven__item">

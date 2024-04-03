@@ -1,5 +1,5 @@
 import icon from "@/images/icons/close-1-1.png";
-import logo4 from "@/images/logoCyberborderNegro.png";
+import logo4 from "@/images/logoCyberborderBlanco.png";
 import logo3 from "@/images/logo-3.png";
 import logo2 from "@/images/logo-dark.png";
 import logo1 from "@/images/logoCyberborderBlanco.png";
@@ -61,25 +61,6 @@ const navItems = [
     id: 2,
     name: "Priime",
     href: "/partners/priime",
-    // subNavItems: [
-    //   { id: 1, name: "About Two", href: "/about-2" },
-    //   { id: 2, name: "About Me", href: "/about-me" },
-    //   { id: 3, name: "Our Mission", href: "/mission" },
-    //   { id: 4, name: "Our History", href: "/history" },
-    //   {
-    //     id: 5,
-    //     name: "Our Team",
-    //     href: "/team",
-    //     subItems: [
-    //       { id: 1, name: "Team 01", href: "/team" },
-    //       { id: 2, name: "Team 02", href: "/team-2" },
-    //       { id: 3, name: "Team 03", href: "/team-3", isNew: true },
-    //     ],
-    //     isNew: true,
-    //   },
-    //   { id: 6, name: "Our Process", href: "/process", isNew: true },
-    //   { id: 7, name: "Our Partner", href: "/partners", isNew: true },
-    // ],
   },
   {
     id: 3,

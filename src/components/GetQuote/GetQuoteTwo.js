@@ -25,11 +25,6 @@ const GetQuoteTwo = ({ className = "" }) => {
               <div className="text">{text}</div>
               <div className="info">
                 <ul>
-                  {/* <li className="address">
-                    <span className="icon flaticon-pin-1"></span>
-                    <strong>Visítanos</strong>
-                    {address}
-                  </li> */}
                   <li>
                     <span className="icon flaticon-email-2"></span>
                     <strong style={{ color: "#686a6f" }}>Correo</strong>
@@ -41,13 +36,6 @@ const GetQuoteTwo = ({ className = "" }) => {
                       Número de contacto
                     </strong>
                     <a href={`tel:${phone.split(" ").join("")}`}>{phone}</a>
-                  </li>
-                  <li>
-                    <span className="icon flaticon-call"></span>
-                    <strong style={{ color: "#686a6f" }}>
-                      Número de contacto
-                    </strong>
-                    <a href={`tel:${phone2.split(" ").join("")}`}>{phone2}</a>
                   </li>
                 </ul>
               </div>
