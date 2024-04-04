@@ -6,12 +6,10 @@ import photoVMI1 from "../../assets/images/portos-vmi.webp";
 import fotoPrueba from "../../assets/images/spectrum-cargo-vmi-port-scanners-x-ray-1-1024x451.webp";
 import photoPriime1 from "../../assets/images/priime1.jpg";
 import photoPriime2 from "../../assets/images/priime2.png";
-// import photoLeghorn from "../../assets/images/transporte-con-container-transporte-maritimo.jpg";
 import photoLeghorn from "../../assets/images/30.webp";
 import photoLeghorn1 from "../../assets/images/precintosRFID.png";
 import photoGlinlock from "../../assets/images/glinlock1.png";
 import photoGlinlock1 from "../../assets/images/glinlock2.jpg";
-import WeDOSection from "../WeDOSection/WeDOSection";
 
 const SidebarPageContainer = ({ titleLayout }) => {
   let object = {};
