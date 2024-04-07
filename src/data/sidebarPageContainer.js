@@ -1,6 +1,3 @@
-import image from "@/images/resource/featured-image-16.jpg";
-import featuredImage from "@/images/resource/featured-image-17.jpg";
-
 export const sidebar = {
   title: "Productos Estratégicos",
   title2: "¿Necesitas ayuda?",

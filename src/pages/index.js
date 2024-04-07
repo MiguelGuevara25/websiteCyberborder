@@ -7,7 +7,6 @@ import MainFooter from "@/components/MainFooter/MainFooter";
 import ParallaxSection from "@/components/ParallaxSection/ParallaxSection";
 import ProjectSeven from "@/components/ProjectSection/ProjectSeven";
 import ServiceEight from "@/components/ServicesSection/ServiceEight";
-import WeDOSection from "@/components/WeDOSection/WeDOSection";
 import WeWorkSection from "@/components/WeWorkSection/WeWorkSection";
 import React from "react";
 

@@ -1,10 +1,5 @@
 import demoBg from "@/images/background/footer-bg-2.jpg";
 import logo from "@/images/logoCyberborderVertical.png";
-import logo3 from "@/images/logo-3.png";
-import logo6 from "@/images/update-01-10-2021/logo-6-light.png";
-import logo7 from "@/images/update-01-10-2021/logo-7-light.png";
-import logo8 from "@/images/update-01-10-2021/logo-8-light.png";
-import logo5 from "@/images/update-09-06-2021/logo-5-light.png";
 
 export const footer = { year: new Date().getFullYear(), author: "Cyberborder" };
 
@@ -18,11 +13,6 @@ export const mainFooterDemo = {
 
 export const mainFooter = {
   logo,
-  logo3,
-  logo5,
-  logo6,
-  logo7,
-  logo8,
   bg: demoBg,
   title: "Let’s Start Working Together",
   about:

@@ -1,14 +1,6 @@
 import icon from "@/images/icons/close-1-1.png";
 import logo4 from "@/images/logoCyberborderBlanco.png";
-import logo3 from "@/images/logo-3.png";
-import logo2 from "@/images/logo-dark.png";
 import logo1 from "@/images/logoCyberborderBlanco.png";
-import logo6 from "@/images/update-01-10-2021/logo-6-dark.png";
-import logo7 from "@/images/update-01-10-2021/logo-7-dark.png";
-import logo8 from "@/images/update-01-10-2021/logo-8-light.png";
-import logo5 from "@/images/update-09-06-2021/logo-5.png";
-import logo10 from "@/images/update-09-06-2021/logo-6.png";
-import logo9 from "@/images/update-26-02-2021/logo-horizontal-portfolio.png";
 
 const home = {
   id: 1,
@@ -116,15 +108,7 @@ const headerData = {
   title2: "Welcome to Creative Buinsess Agency.",
   title3: "Welcome to Amazing Consulting Agency.",
   logo1,
-  logo2,
-  logo3,
   logo4,
-  logo5,
-  logo6,
-  logo7,
-  logo8,
-  logo9,
-  logo10,
   navItems,
   navItemsTwo,
   address: "Suite 20 Golden Street USA",
