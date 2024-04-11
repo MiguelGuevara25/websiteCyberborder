@@ -1,6 +1,4 @@
 import { gallerySectionThree } from "@/data/gallerySection";
-import Link from "next/link";
-import React from "react";
 import { Col, Image, Row } from "react-bootstrap";
 
 const { tagline, title, items } = gallerySectionThree;

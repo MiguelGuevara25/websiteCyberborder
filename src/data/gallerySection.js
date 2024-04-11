@@ -329,7 +329,6 @@ export const gallerySectionThree = {
     },
     {
       id: 3,
-      // image: "project-1-3.jpg",
       image: "integrationSystem.png",
       title: "Integración de un sistema único",
       tagline:
