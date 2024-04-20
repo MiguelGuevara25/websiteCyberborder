@@ -1,4 +1,3 @@
-import React from "react";
 import { Col, Row } from "react-bootstrap";
 import ContentSide from "./ContentSide";
 import SidebarSide from "./SidebarSide";
