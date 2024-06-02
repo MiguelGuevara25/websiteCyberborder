@@ -1,7 +1,7 @@
 import demoBg from "@/images/background/footer-bg-2.jpg";
 import logo from "@/images/logoCyberborderVertical.png";
 
-export const footer = { year: new Date().getFullYear(), author: "Cyberborder" };
+export const footer = { year: new Date().getFullYear(), author: "Cyberborders" };
 
 export const mainFooterDemo = {
   ...footer,
@@ -21,13 +21,14 @@ export const mainFooter = {
   about3:
     "We’ve grown our business on a set of \n three building blocks. Enjoy the \n people you work.",
   text: "Welcome to our web design agency. Lorem ipsum simply free text dolor sited amet cons cing elit.",
-  address: "66 Broklyn Street, New York \n United States of America",
+  address: "Calle Arica N° 115, Dpto. 604\nMiraflores, Lima - Perú",
   address3: "66 Mark Street, New Town DC 5752, Lo New York",
   address2:
     "214 Gold Street Round Road. 66 \n Code New York, United States \n of America",
   phone: "+1 631 355 9575",
   phone2: "+92 3333 222 000",
-  email: "info@cyberboder.com",
+  email: "miguel.carrion@cyberborders.com",
+  email2: "manuel.hinojosa@cyberborders.com",
   textBottom:
     "Sign up for our latest news & articles. We won’t give you spam mails.",
   subscribeText:

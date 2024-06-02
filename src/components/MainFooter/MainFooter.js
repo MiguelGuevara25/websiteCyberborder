@@ -14,6 +14,7 @@ const {
   address,
   phone,
   email,
+  email2,
   textBottom,
 } = mainFooter;
 
@@ -80,10 +81,6 @@ const MainFooter = ({ normalPadding = true }) => {
                 <div className="widget-content">
                   <h6>Contacto</h6>
                   <ul className="contact-info">
-                    {/* <li className="address text-white">
-                      <span className="icon flaticon-pin-1 text-white"></span>{" "}
-                      <TextSplit text={address} />
-                    </li> */}
                     <li>
                       <span className="icon flaticon-call text-white"></span>
                       <a
@@ -98,6 +95,17 @@ const MainFooter = ({ normalPadding = true }) => {
                       <a href={`mailto:${email}`} className="text-white">
                         {email}
                       </a>
+                    </li>
+                    <li>
+                      <span className="icon flaticon-email-2 text-white"></span>
+                      <a href={`mailto:${email2}`} className="text-white">
+                        {email2}
+                      </a>
+                    </li>
+
+                    <li className="address text-white">
+                      <span className="icon flaticon-pin-1 text-white"></span>{" "}
+                      <TextSplit text={address} />
                     </li>
                   </ul>
                 </div>
