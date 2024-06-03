@@ -1,24 +1,29 @@
-import image from "@/images/resource/featured-image-8.jpg";
+// import image from "@/images/resource/featured-image-8.jpg";
 
 const whyUs = {
-  image,
+  // image,
   videoId: "Get7rqXYrbQ",
   title: "See Why you should choose linoor",
   features: [
     {
       id: 1,
-      title: "We think differently",
-      text: "Lorem Ipsum nibh vel velit auctor aliquet. Aenean sollic tudin, lorem is simply free text quis bibendum.",
+      title: "Eficiencia sin Precedentes",
+      text: "Optimización de procesos para un flujo continuo y sin interrupciones.",
     },
     {
       id: 2,
-      title: "did High quality projects",
-      text: "Lorem Ipsum nibh vel velit auctor aliquet. Aenean sollic tudin, lorem is simply free text quis bibendum.",
+      title: "Seguridad Garantizada",
+      text: "Sistemas de vigilancia avanzados que aseguran la protección de tu puerto.",
     },
     {
       id: 3,
-      title: "super expert team members",
-      text: "Lorem Ipsum nibh vel velit auctor aliquet. Aenean sollic tudin, lorem is simply free text quis bibendum.",
+      title: "Tecnología de Vanguardia",
+      text: "Integración de IoT y análisis predictivo para decisiones inteligentes.",
+    },
+    {
+      id: 3,
+      title: "Ahorro de Tiempo y Costos",
+      text: "Automatización que reduce los tiempos de espera y los costos operativos.",
     },
   ],
 };

@@ -1,5 +1,5 @@
 import bg from "@/images/background/image-6.jpg";
-import image from "@/images/update-26-02-2021/resources/testimonial-1-1.jpg";
+// import image from "@/images/update-26-02-2021/resources/testimonial-1-1.jpg";
 
 const testimonialsSection = {
   title: "Customer feedbacks",
@@ -56,22 +56,27 @@ export const testimonialsSectionTwo = {
   testimonials: [
     {
       id: 1,
-      text: "This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch.",
+      text: "Revoluciona tu puerto con tecnología inteligente de CyberBorders.",
       name: "Christine Eve",
     },
     {
       id: 2,
-      text: "This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch.",
+      text: "Haz de la eficiencia y seguridad tus mayores ventajas competitivas.",
       name: "Christine Eve",
     },
     {
       id: 3,
-      text: "This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch.",
+      text: "Transformamos los puertos del futuro, hoy.",
       name: "Christine Eve",
     },
     {
       id: 4,
-      text: "This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch.",
+      text: "Optimiza, automatiza y asegura: bienvenido a la era de los puertos inteligentes.",
+      name: "Christine Eve",
+    },
+    {
+      id: 5,
+      text: "Con CyberBorders, cada segundo cuenta para la eficiencia operativa.",
       name: "Christine Eve",
     },
   ],
@@ -274,21 +279,21 @@ export const testimonialsFive = {
   items: [
     {
       id: 1,
-      image,
+      // image,
       text: "This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch.",
       title: "Christine Albert",
       designation: "My Clients",
     },
     {
       id: 2,
-      image,
+      // image,
       text: "This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch.",
       title: "Christine Albert",
       designation: "My Clients",
     },
     {
       id: 3,
-      image,
+      // image,
       text: "This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch.",
       title: "Christine Albert",
       designation: "My Clients",

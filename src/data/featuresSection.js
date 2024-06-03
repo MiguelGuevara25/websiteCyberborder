@@ -1,7 +1,7 @@
 import bg from "@/images/background/image-3.jpg";
-import image from "@/images/resource/featured-image-13.jpg";
-import image2 from "@/images/update-26-02-2021/resources/feature-2-1.jpg";
-import image3 from "@/images/update-26-02-2021/resources/feature-3-1.jpg";
+// import image from "@/images/resource/featured-image-13.jpg";
+// import image2 from "@/images/update-26-02-2021/resources/feature-2-1.jpg";
+// import image3 from "@/images/update-26-02-2021/resources/feature-3-1.jpg";
 
 const featuresSection = {
   bg,
@@ -28,30 +28,30 @@ const featuresSection = {
 export default featuresSection;
 
 export const featuresSectionTwo = {
-  image,
+  // image,
   title: "Linoor all core features",
   title2: "Total design freedom for everyone",
   features: [
     {
       id: 1,
-      title: "Professional Staff",
-      text: "There are many variations of passages of lorem ipsum majority have suffered.",
+      title: "Gestión de Accesos Inteligente",
+      text: "Control de acceso automatizado para una entrada y salida eficiente de vehículos y mercancías.",
     },
     {
       id: 2,
-      title: "100% Satisfaction",
-      text: "There are many variations of passages of lorem ipsum majority have suffered.",
+      title: "Monitoreo en Tiempo Real",
+      text: "Vigilancia constante para garantizar la seguridad de todas las operaciones portuarias.",
     },
     {
       id: 3,
-      title: "Quality designing",
-      text: "There are many variations of passages of lorem ipsum majority have suffered.",
+      title: "Integración de IoT",
+      text: "Sensores y dispositivos conectados que proporcionan datos precisos para la toma de decisiones informadas.",
     },
   ],
 };
 
 export const featureSix = {
-  image: image2,
+  // image: image2,
   imageCaption: "Total design freedom \n for everyone",
   title: "Linoor place a very strong impact",
   text: "There are many variations of passages of lorem ipsum available, but the majority have suffered alteration in some form injected humour, or randomised words.",
@@ -91,7 +91,7 @@ export const featureSeven = {
 };
 
 export const featureEight = {
-  image: image3,
+  // image: image3,
   title: "We’re here to help your businesses growth",
   text: "There are many variations of pass of lorem ips but the majority have suffered alteration in some form. Injected humour not randomised words which.",
   barTitle: "Digital marketing",

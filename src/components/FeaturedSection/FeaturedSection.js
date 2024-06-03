@@ -12,18 +12,26 @@ const FeaturedSection = ({ className = "" }) => {
           <Col lg={6} md={12} sm={12} className="left-col">
             <div className="inner animated fadeInLeft">
               <div className="image-box">
-                <Image src={image.src} alt="" />
+                <Image
+                  src="https://linoor-nextjs.vercel.app/_next/static/media/featured-image-7.87409611.jpg"
+                  alt=""
+                />
               </div>
             </div>
           </Col>
           <Col lg={6} md={12} sm={12} className="right-col">
             <div className="inner">
               <div className="sec-title">
-                <h2>
-                  {title}
+                <h3 style={{ textTransform: "uppercase", margin: "0px" }}>
+                  Quiénes Somos
                   <span className="dot">.</span>
-                </h2>
-                <div className="lower-text">{text}</div>
+                </h3>
+                <div className="lower-text" style={{padding: "0px"}}>
+                  En CyberBorders, somos pioneros en el desarrollo de tecnología
+                  avanzada para smart ports. Nuestro objetivo es transformar la
+                  manera en que los puertos operan, asegurando que los procesos
+                  sean más ordenados, eficientes, rápidos y seguros.
+                </div>
               </div>
               <div className="features">
                 <Row className="clearfix">

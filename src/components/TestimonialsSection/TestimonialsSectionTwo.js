@@ -53,7 +53,7 @@ const TestimonialsSectionTwo = () => {
                     </div>
                     <div className="text">{text}</div>
                     <div className="info">
-                      <div className="name">{name}</div>
+                      <div className="name">Cyberborders</div>
                     </div>
                   </div>
                 </div>

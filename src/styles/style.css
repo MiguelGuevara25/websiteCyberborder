@@ -6653,7 +6653,7 @@ img.lazy-image.loaded {
   color: #999b9f;
   /* background: var(--thm-black) url(../assets/images/background/footer-bg.png)
     center top no-repeat; */
-  background-color: #106496;
+  background-color: var(--thm-black);
 }
 
 .main-footer .widgets-section {
@@ -7840,7 +7840,7 @@ img.lazy-image.loaded {
   filter: grayscale(0%);
 }
 
-.why-us-section .left-col .image-box:before {
+/* .why-us-section .left-col .image-box:before {
   content: "";
   position: absolute;
   left: 0;
@@ -7849,7 +7849,7 @@ img.lazy-image.loaded {
   height: 100%;
   background: url(../assets/images/icons/shape-1.png) left top no-repeat;
   z-index: 1;
-}
+} */
 
 .why-us-section .left-col .image-box:after {
   content: "";
@@ -9748,7 +9748,7 @@ img.lazy-image.loaded {
   padding: 120px 0px 90px;
 }
 
-.features-section-two .content-container:before {
+/* .features-section-two .content-container:before {
   content: "";
   position: absolute;
   right: 0;
@@ -9758,7 +9758,7 @@ img.lazy-image.loaded {
   background: #ffffff url(../assets/images/background/pattern-2.png) right top
     repeat;
   border-radius: 0px 7px 7px 0px;
-}
+} */
 
 .features-section-two .left-col {
   position: relative;
@@ -9807,7 +9807,7 @@ img.lazy-image.loaded {
   line-height: 40px;
   font-size: 30px;
   letter-spacing: 1px;
-  color: var(--thm-black);
+  color: #fff;
   text-transform: uppercase;
   border-radius: 50%;
   display: -webkit-box;

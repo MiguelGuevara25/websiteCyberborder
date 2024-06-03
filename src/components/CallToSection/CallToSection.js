@@ -10,14 +10,14 @@ const CallToSection = ({ className = "", container = true }) => {
           <div className="shape-2 animated fadeInDown"></div>
           <div className={container ? "" : "auto-container clearfix"}>
             <h2>
-              Let&apos;s Get Your Project {container ? <br /> : ""}
-              Started!
+              Bienvenido a la Nueva Era
+              {container ? <br /> : ""} de los Puertos Inteligentes
             </h2>
             <div className="link-box">
               <Link href="/contact">
                 <a className="theme-btn btn-style-two">
                   <i className="btn-curve"></i>
-                  <span className="btn-title">Contact with us</span>
+                  <span className="btn-title">Contáctanos</span>
                 </a>
               </Link>
             </div>

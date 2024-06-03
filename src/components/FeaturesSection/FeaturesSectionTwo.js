@@ -14,7 +14,7 @@ const FeaturesSectionTwo = () => {
               <div className="inner">
                 <div className="sec-title">
                   <h2>
-                    {title}
+                    Nuestras Soluciones
                     <span className="dot">.</span>
                   </h2>
                 </div>
@@ -34,12 +34,15 @@ const FeaturesSectionTwo = () => {
             <Col lg={7} md={12} sm={12} className="right-col">
               <div className="inner">
                 <div className="image-box animated fadeInRight">
-                  <Image src={image.src} alt="" />
-                  <div className="cap-box">
+                  <Image
+                    src="https://linoor-nextjs.vercel.app/_next/static/media/featured-image-13.a3240fcd.jpg"
+                    alt=""
+                  />
+                  {/* <div className="cap-box">
                     <div className="cap-inner">
                       <h5>{title2}</h5>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </Col>

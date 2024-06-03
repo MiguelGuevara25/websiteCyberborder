@@ -17,26 +17,29 @@ const WhyUs = () => {
               <div className="inner animated fadeInLeft">
                 <div className="round-box">
                   <div className="image-box">
-                    <Image src={image.src} alt="" />
+                    <Image
+                      src="https://linoor-nextjs.vercel.app/_next/static/media/featured-image-8.d0de2478.jpg"
+                      alt=""
+                    />
                   </div>
-                  <div className="vid-link">
+                  {/* <div className="vid-link">
                     <a onClick={() => setOpen(true)} className="lightbox-image">
                       <div className="icon">
                         <span className="flaticon-play-button-1"></span>
                         <i className="ripple"></i>
                       </div>
                     </a>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </Col>
             <Col lg={6} md={12} sm={12} className="right-col">
               <div className="inner">
                 <div className="sec-title">
-                  <h2>
-                    {title}
+                  <h3 style={{ textTransform: "uppercase", margin: "0px" }}>
+                    Conceptos Persuasivos
                     <span className="dot">.</span>
-                  </h2>
+                  </h3>
                 </div>
                 <div className="features">
                   {features.map(({ id, title, text }) => (
