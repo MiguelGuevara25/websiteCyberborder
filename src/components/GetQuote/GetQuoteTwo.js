@@ -1,9 +1,11 @@
 import { getQuoteTwo } from "@/data/getQuote";
+import { useRouter } from "next/router";
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { useForm } from "react-hook-form";
 
-const { title, text, address, email, phone, phone2, inputs } = getQuoteTwo;
+const { title, text, address, email, email2, phone, phone2, inputs } =
+  getQuoteTwo;
 
 const GetQuoteTwo = ({ className = "" }) => {
   const {
@@ -12,6 +14,9 @@ const GetQuoteTwo = ({ className = "" }) => {
     formState: { errors },
   } = useForm();
   const onSubmit = (data) => console.log(data);
+
+  const { pathname } = useRouter();
+  console.log(pathname);
 
   return (
     <section className={`get-quote-two ${className}`}>
@@ -28,14 +33,22 @@ const GetQuoteTwo = ({ className = "" }) => {
                   <li>
                     <span className="icon flaticon-email-2"></span>
                     <strong style={{ color: "#686a6f" }}>Correo</strong>
-                    <a href={`mailto:${email}`}>{email}</a>
+                    {pathname === "/contacto" ? (
+                      <a href={`mailto:${email}`}>{email}</a>
+                    ) : (
+                      <a href={`mailto:${email2}`}>{email2}</a>
+                    )}
                   </li>
                   <li>
                     <span className="icon flaticon-call"></span>
                     <strong style={{ color: "#686a6f" }}>
                       Número de contacto
                     </strong>
-                    <a href={`tel:${phone.split(" ").join("")}`}>{phone}</a>
+                    {pathname === "/contacto" ? (
+                      <a href={`tel:${phone.split(" ").join("")}`}>{phone}</a>
+                    ) : (
+                      <a href={`tel:${phone.split(" ").join("")}`}>{phone2}</a>
+                    )}
                   </li>
                 </ul>
               </div>

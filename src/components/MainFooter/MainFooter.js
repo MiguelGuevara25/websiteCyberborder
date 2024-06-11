@@ -15,16 +15,11 @@ const {
   phone,
   email,
   email2,
+  phone2,
   textBottom,
 } = mainFooter;
 
 const MainFooter = ({ normalPadding = true }) => {
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    const formData = new FormData(e.target);
-    console.log(formData.get("email"));
-  };
-
   return (
     <footer className={`main-footer${normalPadding ? " normal-padding" : ""}`}>
       <div className="auto-container">
@@ -40,7 +35,7 @@ const MainFooter = ({ normalPadding = true }) => {
                           id="fLogo"
                           src={logo.src}
                           alt=""
-                          style={{ height: 100 }}
+                          style={{ height: 125 }}
                         />
                       </a>
                     </Link>
@@ -90,12 +85,24 @@ const MainFooter = ({ normalPadding = true }) => {
                         {phone}
                       </a>
                     </li>
+                    
+                    <li>
+                      <span className="icon flaticon-call text-white"></span>
+                      <a
+                        href={`tel:${phone2.split(" ").join("")}`}
+                        className="text-white"
+                      >
+                        {phone2}
+                      </a>
+                    </li>
+
                     <li>
                       <span className="icon flaticon-email-2 text-white"></span>
                       <a href={`mailto:${email}`} className="text-white">
                         {email}
                       </a>
                     </li>
+
                     <li>
                       <span className="icon flaticon-email-2 text-white"></span>
                       <a href={`mailto:${email2}`} className="text-white">

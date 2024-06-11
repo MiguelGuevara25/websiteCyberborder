@@ -14,7 +14,7 @@ const CallToSection = ({ className = "", container = true }) => {
               {container ? <br /> : ""} de los Puertos Inteligentes
             </h2>
             <div className="link-box">
-              <Link href="/contact">
+              <Link href="/contacto">
                 <a className="theme-btn btn-style-two">
                   <i className="btn-curve"></i>
                   <span className="btn-title">Contáctanos</span>

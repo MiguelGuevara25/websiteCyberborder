@@ -75,7 +75,7 @@ const navItems = [
     href: "/contacto",
     subNavItems: [
       { id: 1, name: "América", href: "/contacto" },
-      { id: 2, name: "Europa", href: "/contacto-2" },
+      { id: 2, name: "Perú", href: "/contacto-peru" },
     ],
   },
 ];

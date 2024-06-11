@@ -26,7 +26,7 @@ export const mainFooter = {
   address2:
     "214 Gold Street Round Road. 66 \n Code New York, United States \n of America",
   phone: "+1 631 355 9575",
-  phone2: "+92 3333 222 000",
+  phone2: "+51 998 172 192",
   email: "miguel.carrion@cyberborders.com",
   email2: "manuel.hinojosa@cyberborders.com",
   textBottom:
