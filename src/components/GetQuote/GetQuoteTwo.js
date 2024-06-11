@@ -40,6 +40,19 @@ const GetQuoteTwo = ({ className = "" }) => {
     }
   };
 
+  const changeInfoContactName = (pathname) => {
+    switch (pathname) {
+      case "/contacto":
+        return <span>Miguel Carrión</span>;
+      case "/contacto-peru":
+        return <span>Manuel Hinojosa</span>;
+      case "/contacto-ecuador":
+        return <span>Carlos Paredes</span>;
+      case "/contacto-paraguay":
+        return <span>Roberto Amarilla</span>;
+    }
+  };
+
   const changeInfoContactPhone = (pathname) => {
     switch (pathname) {
       case "/contacto":
@@ -50,6 +63,19 @@ const GetQuoteTwo = ({ className = "" }) => {
         return <a href={`tel:${phone2.split(" ").join("")}`}>{phone3}</a>;
       case "/contacto-paraguay":
         return <a href={`tel:${phone2.split(" ").join("")}`}>{phone4}</a>;
+    }
+  };
+
+  const changeInfoContactLink = (pathname) => {
+    switch (pathname) {
+      case "/contacto":
+        return <a href={`https://cyberborders.vercel.app/`}>Cyberborders</a>;
+      case "/contacto-peru":
+        return <a href={`https://cyberborders.vercel.app/`}>Cyberborders</a>;
+      case "/contacto-ecuador":
+        return <a href={`https://pbcorp.org/`}>PBCORP</a>;
+      case "/contacto-paraguay":
+        return <a href={`https://website-cyberborders.vercel.app/`}>Cyberborders Paraguay</a>;
     }
   };
 
@@ -68,16 +94,31 @@ const GetQuoteTwo = ({ className = "" }) => {
               <div className="info">
                 <ul>
                   <li>
+                    <span className="icon flaticon-user"></span>
+                    <strong style={{ color: "#686a6f" }}>Nombre</strong>
+                    {changeInfoContactName(pathname)}
+                  </li>
+
+                  <li>
                     <span className="icon flaticon-email-2"></span>
                     <strong style={{ color: "#686a6f" }}>Correo</strong>
                     {changeInfoContactEmail(pathname)}
                   </li>
+
                   <li>
                     <span className="icon flaticon-call"></span>
                     <strong style={{ color: "#686a6f" }}>
                       Número de contacto
                     </strong>
                     {changeInfoContactPhone(pathname)}
+                  </li>
+
+                  <li>
+                    <span className="icon flaticon-link"></span>
+                    <strong style={{ color: "#686a6f" }}>
+                      Link
+                    </strong>
+                    {changeInfoContactLink(pathname)}
                   </li>
                 </ul>
               </div>

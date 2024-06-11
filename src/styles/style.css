@@ -10816,7 +10816,7 @@ img.lazy-image.loaded {
 }
 
 .get-quote-two .info ul li a:hover {
-  color: #ffffff;
+  color: var(--thm-base);
   text-decoration: underline;
   -webkit-text-decoration-color: var(--thm-base);
   text-decoration-color: var(--thm-base);
