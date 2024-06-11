@@ -5,7 +5,7 @@ import MobileMenu from "@/components/Header/MobileMenu";
 import Layout from "@/components/Layout/Layout";
 import MainFooter from "@/components/MainFooter/MainFooter";
 
-const PageContacto = () => {
+const ContactoEcuadorPage = () => {
   return (
     <Layout pageTitle="Contacto">
       <HeaderOne headerStyle="header-style-two" logo={4} />
@@ -14,7 +14,7 @@ const PageContacto = () => {
       <GetQuoteTwo />
       <MainFooter />
     </Layout>
-  );  
+  );
 };
 
-export default PageContacto;
+export default ContactoEcuadorPage;

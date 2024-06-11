@@ -35,7 +35,7 @@ const MainFooter = ({ normalPadding = true }) => {
                           id="fLogo"
                           src={logo.src}
                           alt=""
-                          style={{ height: 125 }}
+                          style={{ height: "205px" }}
                         />
                       </a>
                     </Link>
@@ -85,8 +85,8 @@ const MainFooter = ({ normalPadding = true }) => {
                         {phone}
                       </a>
                     </li>
-                    
-                    <li>
+
+                    {/* <li>
                       <span className="icon flaticon-call text-white"></span>
                       <a
                         href={`tel:${phone2.split(" ").join("")}`}
@@ -94,7 +94,7 @@ const MainFooter = ({ normalPadding = true }) => {
                       >
                         {phone2}
                       </a>
-                    </li>
+                    </li> */}
 
                     <li>
                       <span className="icon flaticon-email-2 text-white"></span>
@@ -103,12 +103,12 @@ const MainFooter = ({ normalPadding = true }) => {
                       </a>
                     </li>
 
-                    <li>
+                    {/* <li>
                       <span className="icon flaticon-email-2 text-white"></span>
                       <a href={`mailto:${email2}`} className="text-white">
                         {email2}
                       </a>
-                    </li>
+                    </li> */}
 
                     <li className="address text-white">
                       <span className="icon flaticon-pin-1 text-white"></span>{" "}

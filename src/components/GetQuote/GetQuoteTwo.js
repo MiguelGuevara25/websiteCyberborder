@@ -4,8 +4,20 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { useForm } from "react-hook-form";
 
-const { title, text, address, email, email2, phone, phone2, inputs } =
-  getQuoteTwo;
+const {
+  title,
+  text,
+  address,
+  email,
+  email2,
+  email3,
+  email4,
+  phone,
+  phone2,
+  phone3,
+  phone4,
+  inputs,
+} = getQuoteTwo;
 
 const GetQuoteTwo = ({ className = "" }) => {
   const {
@@ -15,8 +27,33 @@ const GetQuoteTwo = ({ className = "" }) => {
   } = useForm();
   const onSubmit = (data) => console.log(data);
 
+  const changeInfoContactEmail = (pathname) => {
+    switch (pathname) {
+      case "/contacto":
+        return <a href={`mailto:${email}`}>{email}</a>;
+      case "/contacto-peru":
+        return <a href={`mailto:${email2}`}>{email2}</a>;
+      case "/contacto-ecuador":
+        return <a href={`mailto:${email3}`}>{email3}</a>;
+      case "/contacto-paraguay":
+        return <a href={`mailto:${email4}`}>{email4}</a>;
+    }
+  };
+
+  const changeInfoContactPhone = (pathname) => {
+    switch (pathname) {
+      case "/contacto":
+        return <a href={`tel:${phone.split(" ").join("")}`}>{phone}</a>;
+      case "/contacto-peru":
+        return <a href={`tel:${phone2.split(" ").join("")}`}>{phone2}</a>;
+      case "/contacto-ecuador":
+        return <a href={`tel:${phone2.split(" ").join("")}`}>{phone3}</a>;
+      case "/contacto-paraguay":
+        return <a href={`tel:${phone2.split(" ").join("")}`}>{phone4}</a>;
+    }
+  };
+
   const { pathname } = useRouter();
-  console.log(pathname);
 
   return (
     <section className={`get-quote-two ${className}`}>
@@ -33,22 +70,14 @@ const GetQuoteTwo = ({ className = "" }) => {
                   <li>
                     <span className="icon flaticon-email-2"></span>
                     <strong style={{ color: "#686a6f" }}>Correo</strong>
-                    {pathname === "/contacto" ? (
-                      <a href={`mailto:${email}`}>{email}</a>
-                    ) : (
-                      <a href={`mailto:${email2}`}>{email2}</a>
-                    )}
+                    {changeInfoContactEmail(pathname)}
                   </li>
                   <li>
                     <span className="icon flaticon-call"></span>
                     <strong style={{ color: "#686a6f" }}>
                       Número de contacto
                     </strong>
-                    {pathname === "/contacto" ? (
-                      <a href={`tel:${phone.split(" ").join("")}`}>{phone}</a>
-                    ) : (
-                      <a href={`tel:${phone.split(" ").join("")}`}>{phone2}</a>
-                    )}
+                    {changeInfoContactPhone(pathname)}
                   </li>
                 </ul>
               </div>
