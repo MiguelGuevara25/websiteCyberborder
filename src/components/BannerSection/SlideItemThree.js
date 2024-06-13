@@ -1,4 +1,3 @@
-import Link from "next/link";
 import React, { forwardRef } from "react";
 import TextSplit from "../Reuseable/TextSplit";
 
@@ -13,7 +12,7 @@ const SlideItemThree = ({ slide = {} }, ref) => {
           className="image"
           style={{
             backgroundImage: `url(${
-              require(`../../assets/images/principalImage.png`).default.src
+              require(`../../assets/images/${bg}`).default.src
             })`,
           }}
         ></div>

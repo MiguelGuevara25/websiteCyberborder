@@ -50,12 +50,12 @@ export const bannerOne = {
       title: "Sistema Integral de CONTROL NO INTRUSIVO",
       text: "Garantía de Integridad de las Mercancías",
     },
-    // {
-    //   id: 2,
-    //   bg: "image-1.jpg",
-    //   title: "Best Digital\nMarketing\nAgency",
-    //   text: "We are committed to providing our customers with exceptional service while offering our employees the best training.",
-    // },
+    {
+      id: 2,
+      bg: "totemDigital.png",
+      title: "Digitalización Total: OCR y Tótems",
+      text: "Un futuro sin papel.",
+    },
     // {
     //   id: 3,
     //   bg: "image-1.jpg",
