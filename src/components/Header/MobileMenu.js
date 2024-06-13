@@ -44,18 +44,18 @@ const MobileMenu = ({ onePage = false }) => {
         </nav>
         <div className="side-menu__sep"></div>
         <div className="side-menu__content">
-          <p>{text}</p>
+          {/* <p>{text}</p> */}
           <p>
             <a href={`mailto:${email}`}>{email}</a> <br />{" "}
             <a href={`tel:${phone.split(" ").join("")}`}>{phone}</a>
           </p>
-          <div className="side-menu__social">
+          {/* <div className="side-menu__social">
             {socials.map(({ id, icon, href }) => (
               <a key={id} href={href}>
                 <i className={icon}></i>
               </a>
             ))}
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
