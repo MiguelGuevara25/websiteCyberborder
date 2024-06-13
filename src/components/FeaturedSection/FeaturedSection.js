@@ -27,10 +27,7 @@ const FeaturedSection = ({ className = "" }) => {
                   <span className="dot">.</span>
                 </h3>
                 <div className="lower-text" style={{padding: "0px"}}>
-                  En CyberBorders, somos pioneros en el desarrollo de tecnología
-                  avanzada para smart ports. Nuestro objetivo es transformar la
-                  manera en que los puertos operan, asegurando que los procesos
-                  sean más ordenados, eficientes, rápidos y seguros.
+                  En Cyberborders somos pioneros en el desarrollo de tecnología avanzada para smart ports. Nuestro objetivo es transformar la manera en que los puertos operan, garantizando que los procesos de entrada a las terminales sean más ordenados, eficientes, rápidos y seguros.
                 </div>
               </div>
               <div className="features">

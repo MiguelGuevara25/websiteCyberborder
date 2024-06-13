@@ -13,7 +13,7 @@ const whyUs = {
     {
       id: 2,
       title: "Seguridad Garantizada",
-      text: "Sistemas de vigilancia avanzados que aseguran la protección de tu puerto.",
+      text: "Sistemas de vigilancia avanzados que aseguran la protección en terminales portuarias.",
     },
     {
       id: 3,

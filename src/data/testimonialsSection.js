@@ -56,7 +56,7 @@ export const testimonialsSectionTwo = {
   testimonials: [
     {
       id: 1,
-      text: "Revoluciona tu puerto con tecnología inteligente de CyberBorders.",
+      text: "Revoluciona tu terminal portuaria con tecnología inteligente de CyberBorders.",
       name: "Christine Eve",
     },
     {
